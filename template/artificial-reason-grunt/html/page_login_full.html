@@ -1,0 +1,106 @@
+<!-- build:include layout/header/head.html --><!-- /build -->
+
+<div class="paper-back-full">
+    <div class="login-form-full">
+        <div class="fix-box">
+            <div class="text-center title-logo animated fadeInDown animation-delay-5">artificial<span>reason</span></div>
+            <div class="transparent-div no-padding animated fadeInUp animation-delay-8">
+                <ul class="nav nav-tabs nav-tabs-transparent">
+                  <li class="active"><a href="#home" data-toggle="tab">Login</a></li>
+                  <li><a href="#profile" data-toggle="tab">Register</a></li>
+                  <li><a href="#messages" data-toggle="tab">Recovery Pass</a></li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div class="tab-pane active" id="home">
+                    <form role="form">
+                        <div class="form-group">
+                            <div class="input-group login-input">
+                                <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                <input type="text" class="form-control" placeholder="Username">
+                            </div>
+                            <br>
+                            <div class="input-group login-input">
+                                <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                <input type="password" class="form-control" placeholder="Password">
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" id="checkbox_remember">
+                                <label for="checkbox_remember">Remember me</label>
+                            </div>
+                            <button type="submit" class="btn btn-ar btn-primary pull-right">Login</button>
+                            <div class="clearfix"></div>
+                        </div>
+                    </form>
+                  </div>
+                  <div class="tab-pane" id="profile">
+                      <form role="form">
+                          <div class="form-group">
+                              <label for="InputUserName">User Name<sup>*</sup></label>
+                              <input type="text" class="form-control" id="InputUserName">
+                          </div>
+                          <div class="form-group">
+                              <label for="InputFirstName">First Name</label>
+                              <input type="text" class="form-control" id="InputFirstName">
+                          </div>
+                          <div class="form-group">
+                              <label for="InputLastName">Last Name</label>
+                              <input type="text" class="form-control" id="InputLastName">
+                          </div>
+                          <div class="form-group">
+                              <label for="InputEmail">Email<sup>*</sup></label>
+                              <input type="email" class="form-control" id="InputEmail">
+                          </div>
+                          <div class="row">
+                              <div class="col-md-6">
+                                  <div class="form-group">
+                                      <label for="InputPassword">Password<sup>*</sup></label>
+                                      <input type="password" class="form-control" id="InputPassword">
+                                  </div>
+                              </div>
+                              <div class="col-md-6">
+                                  <div class="form-group">
+                                      <label for="InputConfirmPassword">Confirm Password<sup>*</sup></label>
+                                      <input type="password" class="form-control" id="InputConfirmPassword">
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-8">
+                                  <label class="checkbox-inline">
+                                      <input type="checkbox" id="inlineCheckbox1" value="option1"> I read <a href="#">Terms and Conditions</a>.
+                                  </label>
+                              </div>
+                              <div class="col-md-4">
+                                  <button type="submit" class="btn btn-ar btn-primary pull-right">Register</button>
+                              </div>
+                          </div>
+                      </form>
+                  </div>
+                  <div class="tab-pane" id="messages">
+                    <form role="form">
+                        <div class="form-group">
+                            <label for="InputUserName">User Name<sup>*</sup></label>
+                            <input type="text" class="form-control" id="InputUserName">
+                        </div>
+                        <div class="form-group">
+                            <label for="InputEmail">Email<sup>*</sup></label>
+                            <input type="email" class="form-control" id="InputEmail">
+                        </div>
+                        <button type="submit" class="btn btn-ar btn-primary pull-right">Send Password</button>
+                    </form>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- build:include layout/footer/scripts.html --><!-- /build -->
+<script src="<%= assets %>js/home_login_full.js"></script>
+
+</body>
+
+</html>

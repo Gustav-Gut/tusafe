@@ -1,0 +1,65 @@
+<!-- build:include layout/header.html --><!-- /build -->
+
+<header class="main-header">
+    <div class="container">
+        <h1 class="page-title">Cart</h1>
+
+        <ol class="breadcrumb pull-right">
+            <li><a href="#">E-commerce</a></li>
+            <li class="active">Cart</li>
+        </ol>
+    </div>
+</header>
+
+<div class="container">
+   <div class="row">
+       <div class="col-md-8">
+           <table class="table">
+                <thead>
+                    <tr>
+                        <th>#ID</th>
+                        <th>Image</th>
+                        <th>Name</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>4568</td>
+                        <td><img src="<%= assets %>img/demo/e_img01.jpg" width="100" height="" alt=""></td>
+                        <td><a href="#">Iphone 5S</a></td>
+                        <td>$ 649.00</td>
+                    </tr>
+                    <tr>
+                        <td>6982</td>
+                        <td><img src="<%= assets %>img/demo/e_img02.jpg" width="100" height="" alt=""></td>
+                        <td><a href="#">Keyboard Pro Game</a></td>
+                        <td>$ 49.99</td>
+                    </tr>
+                    <tr>
+                        <td>3354</td>
+                        <td><img src="<%= assets %>img/demo/e_img07.jpg" width="100" height="" alt=""></td>
+                        <td><a href="#">LG 55LA620S 55" LED 3D</a></td>
+                        <td>$ 999.99</td>
+                    </tr>
+                </tbody>
+           </table>
+       </div>
+        <div class="col-md-4">
+            <div class="e-price">$ <span>1698</span>.98</div>
+               <a href="#" class="btn btn-ar btn-block btn-success"><i class="fa fa-shopping-cart"></i> Checkout</a>
+               <h3 class="right-line">Related Products</h3>
+               <div class="ec-box">
+                   <div class="ec-box-header"><a href="#">Bq Aquaris 5 16GB White</a></div>
+                   <a href="#"><img src="<%= assets %>img/demo/e_img03.jpg" alt=""></a>
+                   <div class="ec-box-footer">
+                       <span class="label label-primary">$ 249.99</span>
+                       <a href="#" class="btn btn-ar btn-success btn-sm pull-right"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+</div>
+
+<!-- build:include layout/footer.html --><!-- /build -->

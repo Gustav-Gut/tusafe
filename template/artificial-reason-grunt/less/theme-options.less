@@ -1,0 +1,299 @@
+
+#agm-configurator {
+    position: fixed;
+    z-index: 1040;
+    top: 0;
+    bottom: 0;
+    left: -300px;
+
+    display: table;
+
+    width: 340px;
+    height: 100%;
+
+    #agm-configurator-content {
+        display: table-cell;
+
+        width: 300px;
+
+        color: #fff;
+        border-right: solid 1px #333;
+        background-color: #222;
+
+        .panel {
+            margin: 0;
+            padding: 0;
+
+            border: 0;
+            border-radius: 0;
+            background-color: #222;
+
+            .panel-body:last-child {
+                border-bottom: solid 1px #333;
+            }
+
+            .panel-heading {
+                margin: 0;
+                padding: 0;
+
+                border: 0;
+                border-radius: 0;
+                background-color: #1c1c1c;
+
+                a {
+                    font-family: 'Roboto Condensed', sans-serif;
+                    font-weight: 400;
+                    line-height: 2rem;
+
+                    position: relative;
+
+                    display: block;
+
+                    margin-top: -1px;
+                    padding: 10px 15px;
+
+                    text-transform: uppercase;
+
+                    color: #72797b;
+                    border-top: solid 1px #2b2b2b;
+                    border-bottom: solid 1px #2b2b2b;
+
+                    &:after {
+                        font-family: 'Open Sans';
+                        font-size: 25px;
+
+                        position: absolute;
+                        top: -3px;
+                        right: 15px;
+
+                        content: '_';
+                    }
+                }
+
+                a.collapsed {
+                    &:after {
+                        top: 10px;
+
+                        content: '+';
+                    }
+                }
+            }
+
+            .panel-collapse {
+                background: none;
+                border: none;
+            }
+
+            .panel-body {
+                border: 0;
+                font-size: 1.25rem;
+
+                h5 {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+
+    #agm-configurator-button {
+        display: table-cell;
+
+        #agm-configurator-btn {
+            position: relative;
+            top: 180px;
+
+            width: 40px;
+            height: 40px;
+            margin-left: -1px;
+
+            color: #fff;
+            border: none;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            background-color: #222;
+
+            i {
+                font-size: 2.2rem;
+                margin-left: -2px;
+                line-height: 1.5;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 767px) {
+    #agm-configurator {
+        display: none;
+    }
+}
+
+/* ---------------------------------------------------- */
+/* Theme Options */
+/* ---------------------------------------------------- */
+
+#theme-options {
+    display: table;
+    position: fixed;
+    top: 150px;
+    left: -260px;
+    z-index: 1000;
+
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+#theme-options:hover {
+    left: 0;
+}
+
+#icon-options {
+    display: table-cell;
+}
+
+#icon-options i {
+    padding: 10px;
+
+
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.4), inset 0 0 2px rgba(255,255,255,.75);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.4), inset 0 0 2px rgba(255,255,255,.75);
+    box-shadow: 0 1px 2px rgba(0,0,0,.4), inset 0 0 2px rgba(255,255,255,.75);
+    background-image: -webkit-linear-gradient(bottom, #ececec, #f4f4f4);
+    background-image: -moz-linear-gradient(bottom, #ececec, #f4f4f4);
+    background-image: -o-linear-gradient(bottom, #ececec, #f4f4f4);
+    background-image: linear-gradient(to top, #ececec, #f4f4f4);
+}
+
+#body-options {
+    display: table-cell;
+    width: 260px;
+    background-color: #eee;
+    padding: 15px 20px;
+    position: relative;
+    z-index: 100;
+
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.4), inset 0 0 2px rgba(255,255,255,.75);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.4), inset 0 0 2px rgba(255,255,255,.75);
+    box-shadow: 0 1px 2px rgba(0,0,0,.4), inset 0 0 2px rgba(255,255,255,.75);
+    background-image: -webkit-linear-gradient(bottom, #ececec, #f4f4f4);
+    background-image: -moz-linear-gradient(bottom, #ececec, #f4f4f4);
+    background-image: -o-linear-gradient(bottom, #ececec, #f4f4f4);
+    background-image: linear-gradient(to top, #ececec, #f4f4f4);
+}
+
+#body-options h2 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+#color-options .color-box {
+ display: inline-block;
+ text-indent: -999999px !important;
+ width: 30px;
+ height: 30px;
+ background-color: #fff;
+ margin: 5px;
+}
+
+#color-options .color-blue {
+background-color: #0099da;
+}
+
+#color-options .color-blue2 {
+background-color: #4d7db3;
+}
+
+#color-options .color-blue3 {
+background-color: #6695e2;
+}
+
+#color-options .color-blue4 {
+background-color: #2366f0;
+}
+
+#color-options .color-blue5 {
+background-color: #38d3ff;
+}
+
+#color-options .color-green {
+background-color: #21ba91;
+}
+
+#color-options .color-green2 {
+background-color: #21ba49;
+}
+
+#color-options .color-green3 {
+background-color: #13e018;
+}
+
+#color-options .color-green4 {
+background-color: #5ebe1e;
+}
+
+#color-options .color-green5 {
+background-color: #0a9200;
+}
+
+#color-options .color-red {
+background-color: #e73c3c;
+}
+
+#color-options .color-red2 {
+background-color: #ae0000;
+}
+
+#color-options .color-red3 {
+background-color: #ed0742;
+}
+
+#color-options .color-fuchsia {
+background-color: #ff4c94;
+}
+
+#color-options .color-pink {
+background-color: #ff41e6;
+}
+
+#color-options .color-yellow {
+background-color: #f6dc00;
+}
+
+#color-options .color-yellow2 {
+background-color: #c5b319;
+}
+
+#color-options .color-orange {
+background-color: #ffb644;
+}
+
+#color-options .color-orange2 {
+background-color: #e97900;
+}
+
+#color-options .color-orange3 {
+background-color: #c37744;
+}
+
+#color-options .color-violet {
+background-color: #9f2cc0;
+}
+
+#color-options .color-violet2 {
+background-color: #9000ec;
+}
+
+#color-options .color-violet3 {
+background-color: #c64dff;
+}
+
+#color-options .color-gray {
+background-color: #808080;
+}
+
+#color-options .color-aqua {
+background-color: #29d7d5;
+}

@@ -1,0 +1,305 @@
+<!-- build:include layout/header.html --><!-- /build -->
+
+<header class="main-header">
+    <div class="container">
+        <h1 class="page-title">Panels</h1>
+
+        <ol class="breadcrumb pull-right">
+            <li><a href="#">UI Elements</a></li>
+            <li><a href="#">Components</a></li>
+            <li class="active">Panels</li>
+        </ol>
+    </div>
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+                               <ul class="sidebar-nav animated fadeIn">
+                <li>
+                    <a data-toggle="collapse" href="#coll-css" class="collapsed"><i class="fa fa-css3"></i> CSS</a>
+                    <ul id="coll-css" class="menu-submenu list-unstyled collapse">
+                        <li><a href="css_typography.html"><i class="fa fa-font"></i> Typography</a></li>
+                        <li><a href="css_headers.html"><i class="fa fa-header"></i> Headers</a></li>
+                        <li><a href="css_dividers.html"><i class="fa fa-arrows-h"></i> Dividers</a></li>
+                        <li><a href="css_blockquotes.html"><i class="fa fa-quote-right"></i> Blockquotes</a></li>
+                        <li><a href="css_forms.html"><i class="fa fa-check-square-o"></i> Forms</a></li>
+                        <li><a href="css_tables.html"><i class="fa fa-table"></i> Tables</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a data-toggle="collapse" href="#coll-btn" class="collapsed"><i class="fa fa-hand-o-up"></i> Buttons</a>
+                    <ul id="coll-btn" class="menu-submenu list-unstyled collapse">
+                        <li><a href="btn_basic_buttons.html"><i class="fa fa-arrow-circle-right"></i> Basic Buttons</a></li>
+                        <li><a href="btn_library_buttons.html"><i class="fa fa-arrow-circle-right"></i> Buttons Library</a></li>
+                        <li><a href="btn_social_buttons.html"><i class="fa fa-arrow-circle-right"></i> Social Buttons</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a data-toggle="collapse" href="#coll-icons" class="collapsed"><i class="fa fa-briefcase"></i> Icons</a>
+                    <ul id="coll-icons" class="menu-submenu list-unstyled collapse">
+                        <li><a href="icons_artificial_reason.html"><i class="fa fa-font"></i> Artificial Reason Icons</a></li>
+                        <li><a href="icons_glyph.html"><i class="fa fa-arrow-circle-right"></i> Glyphicons Icons</a></li>
+                        <li><a href="icons_awesome.html"><i class="fa fa-flag"></i> Font Awesome</a></li>
+                        <li><a href="icons_social.html"><i class="fa fa-twitter"></i> Social Icons</a></li>
+                    </ul>
+                </li>
+                <li class="active">
+                    <a data-toggle="collapse" href="#coll-comp"><i class="fa fa-list-alt"></i> Components</a>
+                    <ul id="coll-comp" class="menu-submenu list-unstyled collapse in">
+                        <li><a href="components_dropdowns.html"><i class="fa fa-arrow-circle-right"></i> Components Dropdowns</a></li>
+                        <li class="active"><a href="components_panels.html"><i class="fa fa-arrow-circle-right"></i> Panels</a></li>
+                        <li><a href="components_lists.html"><i class="fa fa-arrow-circle-right"></i> Lists</a></li>
+                        <li><a href="components_paginations.html"><i class="fa fa-arrow-circle-right"></i> Paginations</a></li>
+                        <li><a href="components_labels_badges.html"><i class="fa fa-arrow-circle-right"></i> Labels and Badges</a></li>
+                        <li><a href="components_alerts_wells.html"><i class="fa fa-arrow-circle-right"></i> Alerts and Wells</a></li>
+                        <li><a href="components_thumbnails.html"><i class="fa fa-arrow-circle-right"></i> Thumbnails</a></li>
+                        <li><a href="components_modals.html"><i class="fa fa-arrow-circle-right"></i> Modals</a></li>
+                        <li><a href="components_progress_bars.html"><i class="fa fa-arrow-circle-right"></i> Progress Bars</a></li>
+                        <li><a href="components_tooltip_popover.html"><i class="fa fa-arrow-circle-right"></i> Tooltip &amp; Popover</a></li>
+                    </ul>
+                </li>
+                <li><a href="collapses_tabs.html"  class="collapsed"><i class="fa fa-tasks"></i> Collapses &amp; Tabs</a></li>
+                <li><a href="components_vertical_tabs.html"  class="collapsed"><i class="fa fa-tasks"></i> Vertical Tabs</a></li>
+                <li><a href="components_switch.html"  class="collapsed"><i class="fa fa-toggle-on"></i> Switchs Controls</a></li>
+                <li><a href="content_box.html"  class="collapsed"><i class="fa fa-list-alt"></i> Contents Box</a></li>
+                <li><a href="carousels.html"  class="collapsed"><i class="fa fa-play-circle"></i> Carousels</a></li>
+                <li><a href="charts.html"  class="collapsed"><i class="fa fa-tachometer"></i> Charts &amp; CountDowns</a></li>
+                <li><a href="components_cards.html"  class="collapsed"><i class="fa fa-user"></i> Profile Cards</a></li>
+                <li><a href="components_counters.html"  class="collapsed"><i class="fa fa-sort-numeric-asc"></i> Counters</a></li>
+                <li><a href="components_navtabs.html"  class="collapsed"><i class="fa fa-columns"></i> Navbar Tabs</a></li>
+                <li><a href="components_masonry.html"  class="collapsed"><i class="fa fa-th"></i> Masonry Layer</a></li>
+            </ul>
+        </div>
+        <div class="col-md-9">
+            <section class="css-section">
+                <h2 class="section-title">Basic Panel</h2>
+
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        Basic panel example
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading panel-heading-link">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="collapsed"><i class="fa fa-terminal"></i> Show Code</a>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse">
+                        <div class="panel-body panel-body-no-padding">
+                            <pre class="brush: xml">
+<div class="panel panel-default">
+<div class="panel-body">
+Basic panel example
+</div>
+</div>                                    </pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="css-section">
+                <h2 class="section-title">Panel with heading</h2>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">Panel heading without title</div>
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, qui veritatis excepturi vel aperiam neque quisquam iste accusantium totam similique officia repellat ullam dolore nihil dignissimos magni nostrum. Aperiam, sed, consectetur corporis mollitia aliquam nemo esse laboriosam modi impedit ullam assumenda veritatis voluptate quam aut illo nostrum temporibus architecto dolores deleniti tenetur at saepe quod repudiandae natus odit molestiae eveniet.
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Panel title</h3>
+                    </div>
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, sapiente, optio eius earum neque iure porro! Magni, ut, culpa rerum corrupti obcaecati quae quis magnam facere placeat aspernatur consequuntur neque inventore explicabo praesentium quibusdam? Quas voluptate nostrum similique quis sapiente modi suscipit aliquam quibusdam. Corrupti, rerum, quis, ab, tempore voluptate praesentium beatae optio tempora blanditiis aliquam repellendus porro consequatur dolorum.
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading panel-heading-link">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="collapsed"><i class="fa fa-terminal"></i> Show Code</a>
+                    </div>
+                    <div id="collapse2" class="panel-collapse collapse">
+                        <div class="panel-body panel-body-no-padding">
+                            <pre class="brush: xml">
+<div class="panel panel-default">
+<div class="panel-heading">Panel heading without title</div>
+<div class="panel-body">
+Panel content
+</div>
+</div>
+
+<div class="panel panel-default">
+<div class="panel-heading">
+<h3 class="panel-title">Panel title</h3>
+</div>
+<div class="panel-body">
+Panel content
+</div>
+</div>                                   </pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="css-section">
+                <h2 class="section-title">Panel with footer</h2>
+
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, libero soluta ullam aut ad neque excepturi expedita commodi ipsum itaque quam inventore accusantium delectus iusto laboriosam sapiente vero amet quas cupiditate quibusdam incidunt nam earum non ea recusandae reiciendis dolore iure porro facilis esse nostrum assumenda adipisci distinctio. Maiores, consequatur autem laborum soluta alias atque quos deserunt sapiente veritatis temporibus!
+                    </div>
+                    <div class="panel-footer">
+                        Panel footer
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading panel-heading-link">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="collapsed"><i class="fa fa-terminal"></i> Show Code</a>
+                    </div>
+                    <div id="collapse3" class="panel-collapse collapse">
+                        <div class="panel-body panel-body-no-padding">
+                            <pre class="brush: xml">
+<div class="panel panel-default">
+<div class="panel-body">
+Panel content
+</div>
+<div class="panel-footer">
+Panel footer
+</div>
+</div>                                 </pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="css-section">
+                <h2 class="section-title">Contextual alternatives</h2>
+
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Panel heading without title</div>
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, id hic fuga dignissimos quisquam sapiente voluptates aliquid ratione quaerat facilis.
+                    </div>
+                </div>
+                <div class="panel panel-success">
+                    <div class="panel-heading">Panel heading without title</div>
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, ullam dolorum tenetur aperiam labore quia quos nam magnam libero quidem.
+                    </div>
+                </div>
+                <div class="panel panel-info">
+                    <div class="panel-heading">Panel heading without title</div>
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis illo nulla cum numquam dolor! Porro, dolores quibusdam doloremque nulla amet.
+                    </div>
+                </div>
+                <div class="panel panel-warning">
+                    <div class="panel-heading">Panel heading without title</div>
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, numquam voluptate nihil tenetur soluta recusandae mollitia ullam cumque doloremque quae.
+                    </div>
+                </div>
+                <div class="panel panel-danger">
+                    <div class="panel-heading">Panel heading without title</div>
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, ullam cupiditate corrupti perferendis ab at id voluptate beatae nisi natus.
+                    </div>
+                </div>
+
+                <div class="panel panel-royal">
+                    <div class="panel-heading">Panel heading without title</div>
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, ullam cupiditate corrupti perferendis ab at id voluptate beatae nisi natus.
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading panel-heading-link">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" class="collapsed"><i class="fa fa-terminal"></i> Show Code</a>
+                    </div>
+                    <div id="collapse4" class="panel-collapse collapse">
+                        <div class="panel-body panel-body-no-padding">
+                            <pre class="brush: xml">
+<div class="panel panel-primary">...</div>
+<div class="panel panel-success">...</div>
+<div class="panel panel-info">...</div>
+<div class="panel panel-warning">...</div>
+<div class="panel panel-danger">...</div>
+                            </pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="css-section">
+                <h2 class="section-title">Dark Contextual alternatives</h2>
+
+                <div class="panel panel-primary-dark">
+                    <div class="panel-heading">Panel heading without title</div>
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, id hic fuga dignissimos quisquam sapiente voluptates aliquid ratione quaerat facilis.
+                    </div>
+                </div>
+                <div class="panel panel-success-dark">
+                    <div class="panel-heading">Panel heading without title</div>
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, ullam dolorum tenetur aperiam labore quia quos nam magnam libero quidem.
+                    </div>
+                </div>
+                <div class="panel panel-info-dark">
+                    <div class="panel-heading">Panel heading without title</div>
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis illo nulla cum numquam dolor! Porro, dolores quibusdam doloremque nulla amet.
+                    </div>
+                </div>
+                <div class="panel panel-warning-dark">
+                    <div class="panel-heading">Panel heading without title</div>
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, numquam voluptate nihil tenetur soluta recusandae mollitia ullam cumque doloremque quae.
+                    </div>
+                </div>
+                <div class="panel panel-danger-dark">
+                    <div class="panel-heading">Panel heading without title</div>
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, ullam cupiditate corrupti perferendis ab at id voluptate beatae nisi natus.
+                    </div>
+                </div>
+                <div class="panel panel-royal-dark">
+                    <div class="panel-heading">Panel heading without title</div>
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, ullam cupiditate corrupti perferendis ab at id voluptate beatae nisi natus.
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading panel-heading-link">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse5" class="collapsed"><i class="fa fa-terminal"></i> Show Code</a>
+                    </div>
+                    <div id="collapse5" class="panel-collapse collapse">
+                        <div class="panel-body panel-body-no-padding">
+                            <pre class="brush: xml">
+<div class="panel panel-primary-dark">...</div>
+<div class="panel panel-success-dark">...</div>
+<div class="panel panel-info-dark">...</div>
+<div class="panel panel-warning-dark">...</div>
+<div class="panel panel-danger-dark">...</div>
+                            </pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="css-section">
+                <h2 class="section-title">Special Panel</h2>
+                <div class="panel panel-border">
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, cupiditate, fuga, delectus laborum illum nulla necessitatibus vero earum sint cum asperiores qui repudiandae aspernatur dolor maxime dignissimos dolores reiciendis explicabo inventore et minima nam labore itaque sapiente similique fugit quae eum quibusdam obcaecati saepe voluptates cumque alias consectetur atque animi!</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+
+<!-- build:include layout/footer.html --><!-- /build -->

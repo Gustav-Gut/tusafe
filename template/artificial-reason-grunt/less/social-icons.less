@@ -1,0 +1,860 @@
+@font-face {
+    font-family: 'SocialGlyphs';
+    src: url('@{font-path}/socialglyphs-webfont.eot');
+    src: url('@{font-path}/socialglyphs-webfont.eot?#iefix') format('embedded-opentype'),
+         url('@{font-path}/socialglyphs-webfont.woff') format('woff'),
+         url('@{font-path}/socialglyphs-webfont.ttf') format('truetype'),
+         url('@{font-path}/socialglyphs-webfont.svg#SocialGlyphsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a.social {
+    display: inline-block;
+    margin: 0 20px 20px 0;
+    color: #fff;
+}
+
+
+/* Hover and Active States for All Button Styles */
+
+a.social:link { opacity: 1; }
+a.social:hover {
+    -webkit-box-shadow: inset 0 0 0 250px rgba(255,255,255,.1);
+    -moz-box-shadow: inset 0 0 0 250px rgba(255,255,255,.1);
+    box-shadow: inset 0 0 0 250px rgba(255,255,255,.1);
+    text-decoration: none;
+    color: #fff;
+    }
+
+a.social:active { opacity: 0.8; }
+
+
+/* Button Styles */
+
+.social-facebook {
+    /*General*/
+    display: block;
+    text-decoration: none;
+
+    /*Text*/
+    font-family: 'SocialGlyphs';text-align: center;
+    font-size:35px;
+    line-height:1.2em;
+    text-indent: 10px;
+    font-weight:regular;
+    color: white;
+    text-shadow:0px -1px 0px rgba(0,0,0,0.20);
+
+
+    /*Background*/
+    width:44px;
+    height:44px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #4f78b4;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    background-image: -webkit-linear-gradient(bottom, #4974b0, #6e90c0);
+    background-image: -moz-linear-gradient(bottom, #4974b0, #6e90c0);
+    background-image: -o-linear-gradient(bottom, #4974b0, #6e90c0);
+    background-image: linear-gradient(to top, #4974b0, #6e90c0);
+}
+
+.social-facebook:after {
+    content: "A";
+}
+
+.social-twitter {
+    /*General*/
+    display: block;
+    text-decoration: none;
+
+    /*Text*/
+    font-family: 'SocialGlyphs';
+    text-align: center;
+    font-size:33px;
+    line-height:1.3em;
+    text-indent: 2px;
+    color: white;
+    text-shadow:0px -1px 0px rgba(0,0,0,0.20);
+
+
+    /*Background*/
+    width: 44px;
+    height: 44px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #4e9edc;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    background-image: -webkit-linear-gradient(bottom, #4e9edc, #5daae6);
+    background-image: -moz-linear-gradient(bottom, #4e9edc, #5daae6);
+    background-image: -o-linear-gradient(bottom, #4e9edc, #5daae6);
+    background-image: linear-gradient(to top, #4e9edc, #5daae6);
+}
+
+.social-twitter:after {
+    content: "B";
+}
+
+.social-google {
+    /*General*/
+    display: block;
+    text-decoration: none;
+
+    /*Text*/
+    font-family: 'SocialGlyphs';
+    text-align: center;
+    font-size: 34px;
+    line-height:1.2em;
+    text-indent: 2px;
+    color: white;
+    text-shadow:0px -1px 0px rgba(0,0,0,0.20);
+
+
+    /*Background*/
+    width: 44px;
+    height: 44px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #da4935;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    background-image: -webkit-linear-gradient(bottom, #da4935, #e15946);
+    background-image: -moz-linear-gradient(bottom, #da4935, #e15946);
+    background-image: -o-linear-gradient(bottom, #da4935, #e15946);
+    background-image: linear-gradient(to top, #da4935, #e15946);
+}
+
+.social-google:after {
+    content: "C";
+}
+
+.social-myspace {
+    /*General*/
+    display: block;
+    text-decoration: none;
+
+    /*Text*/
+    font-family: 'SocialGlyphs';
+    text-align: center;
+    font-size:32px;
+    line-height:1.4em;
+    color: white;
+    text-shadow:0px -1px 0px rgba(0,0,0,0.20);
+
+
+    /*Background*/
+    width: 44px;
+    height: 44px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #474747;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    background-image: -webkit-linear-gradient(bottom, #424242, #4e4e4e);
+    background-image: -moz-linear-gradient(bottom, #424242, #4e4e4e);
+    background-image: -o-linear-gradient(bottom, #424242, #4e4e4e);
+    background-image: linear-gradient(to top, #424242, #4e4e4e);
+}
+
+.social-myspace:after {
+    content: "D";
+}
+
+.social-instagram {
+    /*General*/
+    display: block;
+    text-decoration: none;
+
+    /*Text*/
+    font-family: 'SocialGlyphs';
+    text-align: center;
+    font-size:35px;
+    line-height:1.2em;
+    text-indent: 2px;
+    color: white;
+    text-shadow:0px -1px 0px rgba(0,0,0,0.20);
+
+
+    /*Background*/
+    width: 44px;
+    height: 44px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #49709b;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    background-image: -webkit-linear-gradient(bottom, #49709b, #6387af);
+    background-image: -moz-linear-gradient(bottom, #49709b, #6387af);
+    background-image: -o-linear-gradient(bottom, #49709b, #6387af);
+    background-image: linear-gradient(to top, #49709b, #6387af);
+}
+
+.social-instagram:after {
+    content: "E";
+}
+
+.social-linkedin {
+    /*General*/
+    display: block;
+    text-decoration: none;
+
+    /*Text*/
+    font-family: 'SocialGlyphs';
+    text-align: center;
+    font-size:30px;
+    line-height:1.4em;
+    color: white;
+    text-shadow:0px -1px 0px rgba(0,0,0,0.20);
+
+
+    /*Background*/
+    width: 44px;
+    height: 44px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #005a87;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    background-image: -webkit-linear-gradient(bottom, #005a87, #066696);
+    background-image: -moz-linear-gradient(bottom, #005a87, #066696);
+    background-image: -o-linear-gradient(bottom, #005a87, #066696);
+    background-image: linear-gradient(to top, #005a87, #066696);
+}
+
+.social-linkedin:after {
+    content: "F";
+}
+
+.social-vimeo {
+    /*General*/
+    display: block;
+    text-decoration: none;
+
+    /*Text*/
+    font-family: 'SocialGlyphs';
+    text-align: center;
+    font-size:32px;
+    text-indent: 0px;
+    line-height:1.3em;
+    color: white;
+    text-shadow:0px -1px 0px rgba(0,0,0,0.20);
+
+
+    /*Background*/
+    width: 44px;
+    height: 44px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #61a0ad;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    background-image: -webkit-linear-gradient(bottom, #61a0ad, #68aebd);
+    background-image: -moz-linear-gradient(bottom, #61a0ad, #68aebd);
+    background-image: -o-linear-gradient(bottom, #61a0ad, #68aebd);
+    background-image: linear-gradient(to top, #61a0ad, #68aebd);
+}
+
+.social-vimeo:after {
+    content: "G";
+}
+
+.social-youtube {
+    /*General*/
+    display: block;
+    text-decoration: none;
+
+    /*Text*/
+    font-family: 'SocialGlyphs';
+    text-align: center;
+    font-size:32px;
+    line-height:1.3em;
+    text-indent: 2px;
+    color: white;
+    text-shadow:0px -1px 0px rgba(0,0,0,0.20);
+
+
+    /*Background*/
+    width: 44px;
+    height: 44px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #c9322b;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    background-image: -webkit-linear-gradient(bottom, #c9322b, #dc3f38);
+    background-image: -moz-linear-gradient(bottom, #c9322b, #dc3f38);
+    background-image: -o-linear-gradient(bottom, #c9322b, #dc3f38);
+    background-image: linear-gradient(to top, #c9322b, #dc3f38);
+}
+
+.social-youtube:after {
+    content: "H";
+}
+
+.social-dribbble {
+    /*General*/
+    display: block;
+    text-decoration: none;
+
+    /*Text*/
+    font-family: 'SocialGlyphs';
+    text-align: center;
+    font-size:35px;
+    line-height:1.2em;
+    color: white;
+    text-shadow:0px -1px 0px rgba(0,0,0,0.20);
+
+
+    /*Background*/
+    width: 44px;
+    height: 44px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #eb4d8a;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    background-image: -webkit-linear-gradient(bottom, #eb4d8a, #f84e90);
+    background-image: -moz-linear-gradient(bottom, #eb4d8a, #f84e90);
+    background-image: -o-linear-gradient(bottom, #eb4d8a, #f84e90);
+    background-image: linear-gradient(to top, #eb4d8a, #f84e90);
+}
+
+.social-dribbble:after {
+    content: "I";
+}
+
+.social-forrst {
+    /*General*/
+    display: block;
+    text-decoration: none;
+
+    /*Text*/
+    font-family: 'SocialGlyphs';
+    text-align: center;
+    font-size:32px;
+    line-height:1.4em;
+    color: white;
+    text-shadow:0px -1px 0px rgba(0,0,0,0.20);
+
+
+    /*Background*/
+    width: 44px;
+    height: 44px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #267434;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    background-image: -webkit-linear-gradient(bottom, #267434, #328a42);
+    background-image: -moz-linear-gradient(bottom, #267434, #328a42);
+    background-image: -o-linear-gradient(bottom, #267434, #328a42);
+    background-image: linear-gradient(to top, #267434, #328a42);
+}
+
+.social-forrst:after {
+    content: "J";
+}
+
+.social-stumbleupon {
+    /*General*/
+    display: block;
+    text-decoration: none;
+
+    /*Text*/
+    font-family: 'SocialGlyphs';
+    text-align: center;
+    font-size:35px;
+    line-height:1.1em;
+    color: white;
+    text-shadow:0px -1px 0px rgba(0,0,0,0.20);
+
+
+    /*Background*/
+    width: 44px;
+    height: 44px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #ea4b24;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    background-image: -webkit-linear-gradient(bottom, #ea4b24, #f7623d);
+    background-image: -moz-linear-gradient(bottom, #ea4b24, #f7623d);
+    background-image: -o-linear-gradient(bottom, #ea4b24, #f7623d);
+    background-image: linear-gradient(to top, #ea4b24, #f7623d);
+}
+
+.social-stumbleupon:after {
+    content: "K";
+}
+
+.social-pinterest {
+    /*General*/
+    display: block;
+    text-decoration: none;
+
+    /*Text*/
+    font-family: 'SocialGlyphs';
+    text-align: center;
+    font-size:36px;
+    line-height:1.2em;
+    color: white;
+    text-shadow:0px -1px 0px rgba(0,0,0,0.20);
+
+
+    /*Background*/
+    width: 44px;
+    height: 44px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #b8242a;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    background-image: -webkit-linear-gradient(bottom, #b8242a, #c5383e);
+    background-image: -moz-linear-gradient(bottom, #b8242a, #c5383e);
+    background-image: -o-linear-gradient(bottom, #b8242a, #c5383e);
+    background-image: linear-gradient(to top, #b8242a, #c5383e);
+}
+
+.social-pinterest:after {
+    content: "L";
+}
+
+.social-blogger {
+    /*General*/
+    display: block;
+    text-decoration: none;
+
+    /*Text*/
+    font-family: 'SocialGlyphs';
+    text-align: center;
+    font-size:35px;
+    line-height:1.2em;
+    text-indent: 5px;
+    color: white;
+    text-shadow:0px -1px 0px rgba(0,0,0,0.20);
+
+
+    /*Background*/
+    width: 44px;
+    height: 44px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #fc9847;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    background-image: -webkit-linear-gradient(bottom, #fc9847, #ffa55c);
+    background-image: -moz-linear-gradient(bottom, #fc9847, #ffa55c);
+    background-image: -o-linear-gradient(bottom, #fc9847, #ffa55c);
+    background-image: linear-gradient(to top, #fc9847, #ffa55c);
+}
+
+.social-blogger:after {
+    content: "M";
+}
+
+.social-yahoo {
+    /*General*/
+    display: block;
+    text-decoration: none;
+
+    /*Text*/
+    font-family: 'SocialGlyphs';
+    text-align: center;
+    font-size:33px;
+    line-height:1.2em;
+    color: white;;
+    text-shadow:0px -1px 0px rgba(0,0,0,0.20);
+
+
+    /*Background*/
+    width: 44px;
+    height: 44px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #5f0d8e;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    background-image: -webkit-linear-gradient(bottom, #72179d, #9227b6);
+    background-image: -moz-linear-gradient(bottom, #72179d, #9227b6);
+    background-image: -o-linear-gradient(bottom, #72179d, #9227b6);
+    background-image: linear-gradient(to top, #72179d, #9227b6);
+}
+
+.social-yahoo:after {
+    content: "N";
+}
+
+.social-evernote {
+    /*General*/
+    display: block;
+    text-decoration: none;
+
+    /*Text*/
+    font-family: 'SocialGlyphs';
+    text-align: center;
+    font-size:38px;
+    line-height:1.1em;
+    color: white;
+    text-shadow:0px -1px 0px rgba(0,0,0,0.20);
+
+
+    /*Background*/
+    width: 44px;
+    height: 44px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #7ac143;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    background-image: -webkit-linear-gradient(bottom, #7ac143, #8fc565);
+    background-image: -moz-linear-gradient(bottom, #7ac143, #8fc565);
+    background-image: -o-linear-gradient(bottom, #7ac143, #8fc565);
+    background-image: linear-gradient(to top, #7ac143, #8fc565);
+}
+
+.social-evernote:after {
+    content: "O";
+}
+
+.social-wordpress {
+    /*General*/
+    display: block;
+    text-decoration: none;
+
+    /*Text*/
+    font-family: 'SocialGlyphs';
+    text-align: center;
+    font-size:38px;
+    line-height:1.1em;
+    text-indent: 2px;
+    color: white;
+    text-shadow:0px -1px 0px rgba(0,0,0,0.20);
+
+
+    /*Background*/
+    width: 44px;
+    height: 44px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #2485b3;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    background-image: -webkit-linear-gradient(bottom, #2485b3, #4597be);
+    background-image: -moz-linear-gradient(bottom, #2485b3, #4597be);
+    background-image: -o-linear-gradient(bottom, #2485b3, #4597be);
+    background-image: linear-gradient(to top, #2485b3, #4597be);
+}
+
+.social-wordpress:after {
+    content: "P";
+}
+
+.social-foursquare {
+    /*General*/
+    display: block;
+    text-decoration: none;
+
+    /*Text*/
+    font-family: 'SocialGlyphs';
+    text-align: center;
+    font-size:34px;
+    line-height:1.4em;
+    color: white;
+    text-shadow:0px -1px 0px rgba(0,0,0,0.20);
+
+
+    /*Background*/
+    width: 44px;
+    height: 44px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #0bbadf;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    background-image: -webkit-linear-gradient(bottom, #0bbadf, #4cc1da);
+    background-image: -moz-linear-gradient(bottom, #0bbadf, #4cc1da);
+    background-image: -o-linear-gradient(bottom, #0bbadf, #4cc1da);
+    background-image: linear-gradient(to top, #0bbadf, #4cc1da);
+}
+
+.social-foursquare:after {
+    content: "Q";
+}
+
+.social-lastfm {
+    /*General*/
+    display: block;
+    text-decoration: none;
+
+    /*Text*/
+    font-family: 'SocialGlyphs';
+    text-align: center;
+    font-size:32px;
+    line-height:1.3em;
+    color: white;
+    text-shadow:0px -1px 0px rgba(0,0,0,0.20);
+
+
+    /*Background*/
+    width: 44px;
+    height: 44px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #de1600;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    background-image: -webkit-linear-gradient(bottom, #de1600, #de402e);
+    background-image: -moz-linear-gradient(bottom, #de1600, #de402e);
+    background-image: -o-linear-gradient(bottom, #de1600, #de402e);
+    background-image: linear-gradient(to top, #de1600, #de402e);
+}
+
+.social-lastfm:after {
+    content: "R";
+}
+
+.social-behance {
+    /*General*/
+    display: block;
+    text-decoration: none;
+
+    /*Text*/
+    font-family: 'SocialGlyphs';
+    text-align: center;
+    font-size:36px;
+    line-height:0.9em;
+    text-indent: 2px;
+    color: white;
+    text-shadow:0px -1px 0px rgba(0,0,0,0.20);
+
+
+    /*Background*/
+    width: 44px;
+    height: 44px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #1e6fed;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    background-image: -webkit-linear-gradient(bottom, #1e6fed, #2f7df6);
+    background-image: -moz-linear-gradient(bottom, #1e6fed, #2f7df6);
+    background-image: -o-linear-gradient(bottom, #1e6fed, #2f7df6);
+    background-image: linear-gradient(to top, #1e6fed, #2f7df6);
+}
+
+.social-behance:after {
+    content: "S";
+}
+
+.social-tumblr {
+    /*General*/
+    display: block;
+    text-decoration: none;
+
+    /*Text*/
+    font-family: 'SocialGlyphs';
+    text-align: center;
+    font-size:32px;
+    line-height:1.3em;
+    color: white;
+    text-shadow:0px -1px 0px rgba(0,0,0,0.20);
+
+
+
+    /*Background*/
+    width: 44px;
+    height: 44px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #466484;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    background-image: -webkit-linear-gradient(bottom, #466484, #4f759e);
+    background-image: -moz-linear-gradient(bottom, #466484, #4f759e);
+    background-image: -o-linear-gradient(bottom, #466484, #4f759e);
+    background-image: linear-gradient(to top, #466484, #4f759e);
+}
+
+.social-tumblr:after {
+    content: "T";
+}
+
+.social-feed {
+    /*General*/
+    display: block;
+    text-decoration: none;
+
+    /*Text*/
+    font-family: 'SocialGlyphs';
+    text-align: center;
+    font-size:34px;
+    line-height:1.2em;
+    color: white;
+    text-shadow:0px -1px 0px rgba(0,0,0,0.20);
+
+
+    /*Background*/
+    width: 44px;
+    height: 44px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #ef922f;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    background-image: -webkit-linear-gradient(bottom, #ef922f, #f8a64f);
+    background-image: -moz-linear-gradient(bottom, #ef922f, #f8a64f);
+    background-image: -o-linear-gradient(bottom, #ef922f, #f8a64f);
+    background-image: linear-gradient(to top, #ef922f, #f8a64f);
+}
+
+.social-feed:after {
+    content: "U";
+}
+
+.social-skype {
+    /*General*/
+    display: block;
+    text-decoration: none;
+
+    /*Text*/
+    font-family: 'SocialGlyphs';
+    text-align: center;
+    font-size:36px;
+    text-indent: 1px;
+    line-height:1.1em;
+    color: white;
+    text-shadow:0px -1px 0px rgba(0,0,0,0.20);
+
+
+    /*Background*/
+    width: 44px;
+    height: 44px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #00aff0;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    background-image: -webkit-linear-gradient(bottom, #00aff0, #1bc1ff);
+    background-image: -moz-linear-gradient(bottom, #00aff0, #1bc1ff);
+    background-image: -o-linear-gradient(bottom, #00aff0, #1bc1ff);
+    background-image: linear-gradient(to top, #00aff0, #1bc1ff);
+}
+
+.social-skype:after {
+    content: "V";
+}
+
+.social-email {
+    /*General*/
+    display: block;
+    text-decoration: none;
+
+    /*Text*/
+    font-family: 'SocialGlyphs';
+    text-align: center;
+    font-size:35px;
+    line-height:1.0em;
+    color: white;
+    text-shadow:0px -1px 0px rgba(0,0,0,0.20);
+
+
+    /*Background*/
+    width: 44px;
+    height: 44px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #1d90dd;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    background-image: -webkit-linear-gradient(bottom, #1d90dd, #2da2f0);
+    background-image: -moz-linear-gradient(bottom, #1d90dd, #2da2f0);
+    background-image: -o-linear-gradient(bottom, #1d90dd, #2da2f0);
+    background-image: linear-gradient(to top, #1d90dd, #2da2f0);
+}
+
+.social-email:after {
+    content: "W";
+}
+
+.social-sharethis {
+    /*General*/
+    display: block;
+    text-decoration: none;
+
+    /*Text*/
+    font-family: 'SocialGlyphs';
+    text-align: center;
+    font-size:33px;
+    line-height:1.3em;
+    color: white;
+    text-shadow:0px -1px 0px rgba(0,0,0,0.20);
+
+
+    /*Background*/
+    width: 44px;
+    height: 44px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #008850;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    background-image: -webkit-linear-gradient(bottom, #008850, #119e64);
+    background-image: -moz-linear-gradient(bottom, #008850, #119e64);
+    background-image: -o-linear-gradient(bottom, #008850, #119e64);
+    background-image: linear-gradient(to top, #008850, #119e64);
+}
+
+.social-sharethis:after {
+    content: "X";
+}

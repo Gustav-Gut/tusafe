@@ -1,0 +1,693 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VideoWhisper Video Share VOD\n"
+"POT-Creation-Date: 2015-10-12 19:06+0100\n"
+"PO-Revision-Date: 2015-10-12 19:06+0100\n"
+"Last-Translator: VideoWhisper.com <submit.ticket@videowhisper.com>\n"
+"Language-Team: VideoWhisper.com <submit.ticket@videowhisper.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/"
+"trunk\n"
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:39
+msgid "Videos"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:40
+msgid "Parent Video:"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:41
+msgid "All Videos"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:42
+msgid "View Video"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:43
+msgid "Add New Video"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:44
+msgid "New Video"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:45
+msgid "Edit Video"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:46
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:3532
+msgid "Update Video"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:47
+msgid "Search Videos"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:48
+msgid "No Videos found"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:49
+msgid "No Videos found in Trash"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:53
+msgid "video"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:54
+msgid "Video Videos"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:78
+msgid "Search Playlists"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:79
+msgid "All Playlists"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:80
+msgid "Parent Playlist"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:81
+msgid "Parent Playlist:"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:82
+msgid "Edit Playlist"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:83
+msgid "Update Playlist"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:84
+msgid "Add New Playlist"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:85
+msgid "New Playlist Name"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:86
+msgid "Playlists"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:108
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:123
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:3924
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4001
+msgid "TV Shows"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:109
+msgid "Parent TV Show:"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:110
+msgid "All TV Shows"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:111
+msgid "View TV Show"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:112
+msgid "Add New TV Show"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:113
+msgid "New TV Show"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:114
+msgid "Edit TV Show"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:115
+msgid "Update TV Show"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:116
+msgid "Search TV Show"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:117
+msgid "No TV Shows found"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:118
+msgid "No TV Shows found in Trash"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:122
+msgid "TV show"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:262
+msgid "Once every five minutes"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:447
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:830
+msgid "Title"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:451
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:968
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:970
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:1033
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:1035
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:2416
+msgid "Playlist"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:455
+msgid "Category ID"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:459
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:804
+msgid "Order By"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:461
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:805
+msgid "Video Date"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:462
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:806
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:830
+msgid "Views"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:463
+msgid "Recently Watched"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:466
+msgid "Videos per Page"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:470
+msgid "Videos per Row"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:474
+msgid "Category Selector"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:480
+msgid "Order Selector"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:486
+msgid "Page Selector"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:492
+msgid "Include CSS"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:796
+msgid "All"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:807
+msgid "Watched Recently"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:830
+msgid "Duration"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:830
+msgid "Age"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:831
+msgid "views"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:862
+msgid "No videos."
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:868
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:1477
+msgid "Previous"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:869
+msgid "Page"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:870
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:1477
+msgid "Next"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:952
+msgid "Login is required to import videos!"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:957
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:1023
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:3281
+msgid "You do not have permissions to share videos!"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:966
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:1031
+msgid "Category"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:969
+msgid "(comma separated)"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:977
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:1041
+msgid "Tags"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:978
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:1042
+msgid "Tag(s)"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:981
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:982
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:1045
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:1046
+msgid "Description"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:987
+msgid "Import Videos"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:1019
+msgid "Login is required to upload videos!"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:1034
+msgid "Playlist(s)"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:1069
+msgid ""
+"or Drag & Drop files to this upload area<br>(select rest of options first)"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:1075
+msgid "Upload Files"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:1089
+msgid "Video Upload"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:1089
+msgid "Videos to upload"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:1477
+msgid "Previous video"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:1477
+msgid "Next video"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:1770
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:2201
+msgid "Download Video File"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:1770
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:2201
+msgid "right click and Save As.."
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:1774
+msgid "Embed Video HTML Code"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:1774
+msgid "Copy and Paste to your Page"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:2203
+msgid "Embed Flash Video Code (Copy & Paste to your Page)"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:2412
+msgid "Channel"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:2428
+msgid "Video Views"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:2443
+msgid "Channel Playlist"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:2468
+msgid "Episodes"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:3372
+msgid "Video was submitted and is pending approval."
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:3374
+msgid "Video was published"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:3374
+msgid "Snapshot, video info and thumbnail will be processed shortly."
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:3490
+msgid "Update Thumbnail"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:3533
+msgid "Convert Video"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:3918
+msgid "Server"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:3919
+msgid "Video Share"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:3920
+msgid "Convert"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:3921
+msgid "Display"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:3922
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4117
+msgid "Players"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:3923
+msgid "Live Streaming"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:3925
+msgid "VOD"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:3926
+msgid "VAST/IAB"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:3937
+msgid "Convert Videos"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:3939
+msgid "Conversion Queue"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:3954
+msgid "Convert to Mobile HTML5 Format"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:3963
+msgid "Convert to High HTML5 Format"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:3972
+msgid "Multiple Formats in Single Process"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:3979
+msgid "Instant Conversion"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:3987
+msgid "Troubleshooting"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:3989
+msgid "System Process Limitations"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4003
+msgid "Enable TV Shows Post Type"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4010
+msgid "TV Shows Slug"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4017
+msgid "Server Configuration"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4019
+msgid "Uploads Path"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4020
+msgid ""
+"Path where video files will be stored. Make sure you use a location outside "
+"plugin folder to avoid losing files on updates and plugin uninstallation."
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4026
+msgid "FFMPEG Path"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4027
+msgid ""
+"Path to latest FFMPEG. Required for extracting snapshots, info and "
+"converting videos."
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4118
+msgid "Strobe RTMP supports multi bitrate sources provided by plugin as:"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4119
+msgid "HTML playback is supported on most browsers and devices."
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4121
+msgid "HTML5 Player"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4123
+msgid "Native HTML5 Tag"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4124
+msgid "WordPress Player (MediaElement.js)"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4125
+msgid "Video.js"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4128
+msgid "Player Compatibility"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4129
+msgid ""
+"Setup appropriate player type and video source depending on OS and browser."
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4130
+msgid "Default Player Type"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4132
+msgid "Strobe (Flash)"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4133
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4148
+msgid "HTML5"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4134
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4141
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4149
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4164
+msgid "HTML5 Mobile"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4135
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4150
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4158
+msgid "Strobe RTMP"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4137
+msgid ""
+"HTML5 Mobile plays lower profile converted video, for mobile support, even "
+"if source video is MP4."
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4139
+msgid "Player on iOS"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4142
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4151
+msgid "HTML5 HLS"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4145
+msgid "Player on Safari"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4153
+msgid ""
+"Safari requires user to confirm flash player load. Use HTML5 player to avoid "
+"this."
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4155
+msgid "Player on Firefox for MacOS"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4160
+msgid ""
+"Firefox for Mac did not support MP4 HTML5 playback, last time we checked. "
+"See <a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=851290\">bug "
+"status</a>."
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4162
+msgid "Player on Android"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4165
+msgid "Flash Strobe"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4166
+msgid "Flash Strobe RTMP"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4168
+msgid ""
+"Latest Android no longer supports Flash in default browser, so HTML5 is "
+"recommended."
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4170
+msgid "Cross Domain Policy"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4183
+msgid "Display &amp; Listings"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4185
+msgid "Default Videos Per Page"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4189
+msgid "Thumbnail Width"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4192
+msgid "Thumbnail Height"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4196
+msgid "Playlist Video Width"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4199
+msgid "Playlist List Width"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4204
+msgid "Custom CSS"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4206
+msgid ""
+"Styling used in elements added by this plugin. Must include CSS container "
+"&lt;style type=&quot;text/css&quot;&gt; &lt;/style&gt; ."
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4208
+msgid "Show VideoWhisper Powered by"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4213
+msgid "Show a mention that videos where posted with VideoWhisper plugin.\n"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4220
+msgid "Video Sharing"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4222
+msgid "Users allowed to share videos"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4224
+msgid ""
+"Who can share videos: comma separated Roles, user Emails, user ID numbers."
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4225
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4231
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4236
+msgid "\"Guest\" will allow everybody including guests (unregistered users)."
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4227
+msgid "Users allowed to directly publish videos"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4229
+msgid "Users not in this list will add videos as \"pending\"."
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4230
+msgid ""
+"Who can publish videos: comma separated Roles, user Emails, user ID numbers."
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4233
+msgid "Users allowed to get embed codes"
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4235
+msgid ""
+"Who can see embed code for videos: comma separated Roles, user Emails, user "
+"ID numbers."
+msgstr ""
+
+#: /Users/NTM/Dropbox/projects/wordpress/video-share-vod/trunk/video-share-vod.php:4237
+msgid "Add code below to your .htaccess file for successful resource embeds:"
+msgstr ""

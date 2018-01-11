@@ -1,0 +1,101 @@
+<!-- build:include layout/header.html --><!-- /build -->
+
+<header class="main-header">
+    <div class="container">
+        <h1 class="page-title">Portfolio item</h1>
+
+        <ol class="breadcrumb pull-right">
+            <li><a href="#">Portfolio</a></li>
+            <li class="active">Portfolio item</li>
+        </ol>
+    </div>
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="carousel-example-captions" class="carousel carousel-images slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-captions" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-captions" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-captions" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="item active">
+                            <img src="<%= assets %>img/demo/img11.jpg" alt="First slide image">
+                            <div class="carousel-caption animated fadeInUpBig">
+                                <h3>First slide label</h3>
+                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            </div>
+                            </div>
+                            <div class="item">
+                            <img src="<%= assets %>img/demo/img03.jpg" alt="Second slide image">
+                            <div class="carousel-caption animated fadeInUpBig">
+                                <h3>Second slide label</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                            </div>
+                            <div class="item">
+                            <img src="<%= assets %>img/demo/img14.jpg" alt="Third slide image">
+                            <div class="carousel-caption animated fadeInUpBig">
+                                <h3>Third slide label</h3>
+                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            </div>
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#carousel-example-captions" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-captions" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </div>
+                </div>
+                <hr class="dotted hidden-md hidden-lg">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="panel panel-default portfolio-item-panel">
+                <div class="panel-heading">Item Details</div>
+                <div class="panel-body">
+                    <h4 class="no-margin-bottom">Data</h4>
+                    <ul class="list-unstyled">
+                        <li><strong>Title:</strong> the title item</li>
+                        <li><strong>Categories:</strong> Nature, Landscape, animals.</li>
+                        <li><strong>Author:</strong> Andrew Ryan</li>
+                        <li><strong>Year:</strong> 2014</li>
+                    </ul>
+                    <h4 class="no-margin-bottom">Description</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur quas adipisicing elit. Voluptatem vitae similique illum quia ipsa a temporibus ratione libero aliquam debitis temporibus.</p>
+                    <p>Lorem ipsum similique illum quia ipsa elit consectetur adipisicing elit libero amet ut tempore vero deserunt non.</p>
+                    <p>Necessitatibus voluptatem distinctio tenetur doloremque natus veniam consectetur dignissimos deleniti.</p>
+                    <p class="text-center"><a href="#" class="btn btn-ar btn-primary"><i class="fa fa-desktop"></i> Live Preview</a> <a href="#" class="btn btn-ar btn-success"><i class="fa fa-usd"></i> Purchase</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="right-line">Related Works</h2>
+        </div>
+        <div class="col-md-4">
+            <a href="#" class="thumbnail">
+                <img src="<%= assets %>img/demo/img20.jpg" alt="" class="img-responsive">
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="#" class="thumbnail">
+                <img src="<%= assets %>img/demo/img24.jpg" alt="" class="img-responsive">
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="#" class="thumbnail">
+                <img src="<%= assets %>img/demo/img10.jpg" alt="" class="img-responsive">
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- build:include layout/footer.html --><!-- /build -->

@@ -1,0 +1,412 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+.ind-clear{
+	clear:both;
+}
+.indeed-addons-main-title{
+	margin:25px 0 15px 0;
+}
+.indeed-addons-main-title-left{
+	float:left;
+}
+
+.indeed-addons-main-title-right{
+	float:right;
+	box-sizing:border-box;
+	padding:30px 20px 0 0;
+	font-weight:bold;
+	color:#0073aa;
+	cursor:pointer;
+}
+.indeed-addons-main-title .ifs-busket{
+	padding-right:10px;
+	font-size: 1em;
+	color:#d54e21;
+}
+.indeed-addons-main-title h3{
+	font-size: 2.35em;
+    font-weight: 300;
+	font-family: 'Montserrat', sans-serif;
+    color: #000;
+    margin: 0;
+    line-height: 1em;
+	word-wrap: break-word;
+}
+.indeed-addons-main-title span{
+	color: #999;
+	font-style:italic;
+    padding-left: 3.2em;
+}
+.indeed-addons-top{
+	box-sizing: border-box;
+    margin: 12px 0 25px;
+    padding: 0;
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    border: 1px solid #e5e5e5;
+    background-color: #373942;
+    color: #555;
+    font-size: 13px;
+}
+.indeed-addons-categories-list{
+    margin: 0;    
+	float: left;
+}
+.indeed-addons-search{
+	float:right;
+	margin:10px 0;
+    padding: 0 10px;
+    box-sizing: border-box;
+	display: inline-block;
+}
+.indeed-addons-search input{
+	margin: 0;
+    padding: 3px 15px;
+    width: 480px;
+    max-width: 100%;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    opacity: 0.95;
+    border-radius: 5px;
+}
+.indeed-addons-categories-list li{
+    float:left;
+    margin: 0;
+	border-left:1px solid rgba(255,255,255,0.3);
+}
+.indeed-addons-categories-list li.selected, .indeed-addons-categories-list li:hover{
+	background-color:#fff;
+	color: #373942;
+	border-left:1px solid #ededed;
+}
+.indeed-addons-categories-list li.selected a, .indeed-addons-categories-list li:hover a{
+	color: #373942;
+}
+.indeed-addons-categories-list a{
+	display: inline-block;
+    margin: 0 24px;
+    padding: 17px 0;
+    font-family: "Open Sans",sans-serif;
+	font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+	text-decoration:none;
+}
+.indeed-item-wrapp{
+	float:left;
+	width:25%;
+	padding:15px 10px;
+    box-sizing: border-box;
+	-webkit-transition: top 0.4s linear, left 0.4s ease;
+    -moz-transition: top 0.4s linear, left 0.4s ease;
+    -o-transition: top 0.4s linear, left 0.4s ease;
+    -ms-transition: top 0.4s linear, left 0.4s ease;
+    transition: top 0.4s linear, left 0.4s ease;
+}
+.indeed-item-wrapp:hover{
+	-webkit-transition: top 0.4s linear, left 0.4s ease;
+    -moz-transition: top 0.4s linear, left 0.4s ease;
+    -o-transition: top 0.4s linear, left 0.4s ease;
+    -ms-transition: top 0.4s linear, left 0.4s ease;
+    transition: top 0.4s linear, left 0.4s ease;
+    top: -4px;
+    position: relative;
+}
+.indeed-item-wrapp .indeed-addon-ribbon-updated{
+	width: 80px;
+    height: 80px;
+    background-size: contain;
+    display: inline-block;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-repeat: no-repeat;
+    z-index: 2;
+	background-image: url('img/ribbon_updated.png');
+}
+.indeed-item-wrapp .indeed-addon-ribbon-new{
+	width: 80px;
+    height: 80px;
+    background-size: contain;
+    display: inline-block;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-repeat: no-repeat;
+    z-index: 2;
+	background-image: url('img/ribbon_new.png');
+}
+.indeed-item{
+    background-color: #fff;
+    border: 1px solid #dedede;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+	position:relative;
+}
+.indeed-addon-img-wrapper{
+	position:relative;
+}
+.indeed-addon-img-cover{
+	position:absolute;
+	top:0px;
+	left:0px;
+	background:rgba(0,0,0,0.75);
+	width:100%;
+	bottom:0px;
+	opacity:0;	
+}
+.indeed-addon-img-wrapper:hover .indeed-addon-img-cover{
+	opacity:1;
+}
+.indeed-addon-img-cover .ifs-frw{
+	color:#FFF;
+	font-size: 3.5em;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin-top: -0.5em;
+}
+.indeed-addon-img-preview{
+	width:100%;
+}
+.indeed-item-inner{
+	padding:5px 12px;
+	padding-top:0px;
+    box-sizing: border-box;
+}
+.indeed-addon-title{
+	font-size: 1.20em;
+    font-weight: 500;
+	font-family: 'Montserrat', sans-serif;
+    color: rgb(0,156,214);
+    margin: 6px 0 0 0;
+    line-height: 1.4em;
+	word-wrap: break-word;
+	height:22px; 
+	overflow:hidden;
+}
+.indeed-addon-author{
+	font-size:12px;
+    font-weight: 300;
+	font-family: 'Montserrat', sans-serif;
+	word-wrap: break-word;
+	padding-bottom:5px;
+}
+
+.indeed-addon-author a{
+	color: #0073aa;
+	text-decoration:none;
+}
+.indeed-addon-author a:hover{
+    color: rgb(0,156,214);
+	text-decoration:underline;
+}
+.indeed-addon-short-description{
+	font-size:1em;
+	color:#777;
+	line-height: 1.5;
+	padding:5px 0 10px 0;
+	box-sizing:border-box;
+	word-wrap: break-word;
+	height:72px;
+	overflow:hidden;
+    word-break: break-all;
+}
+.indeed-item .button{
+	display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 26px;
+    height: 28px;
+    margin: 0;
+    padding: 0 10px 1px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    white-space: nowrap;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	    color: #555;
+    border-color: #ccc;
+    background: #f7f7f7;
+    -webkit-box-shadow: 0 1px 0 #ccc;
+    box-shadow: 0 1px 0 #ccc;
+    vertical-align: top;
+}
+.indeed-item .button-primary {
+    background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    -webkit-box-shadow: 0 1px 0 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #006799,1px 0 1px #006799,0 1px 1px #006799,-1px 0 1px #006799;
+}
+.indeed-addon-envato-link{
+	float:left;
+	margin-top:10px;
+}
+.indeed-addon-demo-link{
+	float:right;
+	font-weight:bold;
+	margin-top:10px;
+}
+.indeed-addon-keywords{
+	color: #0084b4;
+	padding:10px 0 0px 0;
+	box-sizing:border-box;
+	font-size:11px;
+	height:46px;
+	overflow:hidden;
+}
+.indeed-addon-bottom-side{
+    padding: 12px 8px;
+    background-color: #fafafa;
+    border-top: 1px solid #dedede;
+    overflow: hidden;
+}
+.indeed-addon-bottom-side .ind-side-left{
+	float:left;
+    margin-bottom: 8px;
+}
+
+.indeed-addon-bottom-side .ind-side-right{
+	float:right;
+	font-size:12px;
+	color:#444;
+	text-align: right;
+	font-style:italic;
+    word-wrap: break-word;
+    padding: 0px 0 0 4px;
+	max-width:120px;
+    line-height: 1.25em;
+}
+
+.indeed-addon-purchase-button{
+	font-size: 12px;
+    line-height: 32px;
+    height: 34px;
+    max-with:100%;
+	margin: 0;
+    padding: 0 6px 1px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+	display:inline-block;
+    -webkit-appearance: none;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    white-space: nowrap;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    -webkit-box-shadow: 0 1px 0 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    text-decoration: none;
+	background: #82b53f;
+    border-color: #82b53f #639029 #639029;
+    -webkit-box-shadow: 0 1px 0 #639029;
+    box-shadow: 0 1px 0 #639029;
+    word-wrap: break-word;
+    /*text-shadow: 0 -1px 1px #006799,1px 0 1px #006799,0 1px 1px #006799,-1px 0 1px #006799;*/
+}
+.indeed-addon-purchase-button span{
+	font-size:15px;
+	padding-right:3px;
+	font-weight:bold;
+}
+.indeed-addon-purchase-button a{
+	color:#fff;
+	text-decoration:none;
+}
+.indeed-addon-purchase-button a:href{
+	text-decoration:none;
+	color:#fff;
+}
+.indeed-addon-more{
+	color: rgb(0,156,214);
+	text-decoration:underline;	
+}
+
+@media only screen and (min-width: 1140px) and (max-width: 1399px){
+.indeed-item-wrapp{	
+	width:33%;
+}
+}
+@media only screen and (min-width: 600px) and (max-width: 1139px){
+.indeed-item-wrapp{	
+	width:50%;
+}
+.indeed-addons-search input{
+	width:auto;
+}
+.indeed-addon-bottom-side .ind-side-right{
+	font-size:11px;
+	max-width:100px;
+}
+.indeed-addons-categories-list li  a{
+	font-size:15px;
+	margin:0 14px;
+}
+}
+@media only screen and (min-width: 600px) and (max-width: 768px){
+.indeed-addons-categories-list li  a{
+	font-size:14px;
+	margin:0 12px;
+}
+.indeed-addons-search input{
+	width:130px;
+}
+}
+@media only screen  and (max-width: 599px){
+.indeed-item-wrapp{	
+	width:100%;
+}
+
+.indeed-addons-search input{
+	width:100%;
+}
+.indeed-addons-categories-list{
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    width: 100%;
+}
+.indeed-addons-search{
+	width: 100%;
+}
+.indeed-addon-bottom-side .ind-side-right{
+	font-size:11px;
+	max-width:100px;
+}
+.indeed-addons-categories-list li  a{
+	font-size:14px;
+}
+}
+@media only screen  and (max-width: 499px){
+.indeed-addons-categories-list li {
+	border-left:none;
+	
+}
+.indeed-addons-categories-list li.selected, .indeed-addons-categories-list li:hover{
+	border-left:none;
+}
+.indeed-addons-categories-list li  a{
+	font-size:13px;
+}
+}
+.indeed-message-close{
+	color: #555;
+    border-color: #ccc;
+    background: #f7f7f7;
+    -webkit-box-shadow: 0 1px 0 #ccc;
+    box-shadow: 0 1px 0 #ccc;
+    vertical-align: top;
+}

@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>tuSafe - Monitoreo escolar</title>
+
+    <link rel="shortcut icon" href="assets/img/faviconTuSafe.png" />
+
+    <meta name="description" content="">
+
+    <!-- CSS -->
+    <link href="assets/css/normalize.css" rel="stylesheet" >
+    <link href="assets/css/preload.css" rel="stylesheet">
+
+    <!-- Compiled in vendors.js -->
+    <!--
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-switch.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/animate.min.css" rel="stylesheet">
+    <link href="assets/css/slidebars.min.css" rel="stylesheet">
+    <link href="assets/css/lightbox.css" rel="stylesheet">
+    <link href="assets/css/jquery.bxslider.css" rel="stylesheet" />
+    <link href="assets/css/buttons.css" rel="stylesheet">
+    -->
+
+    <link href="assets/css/vendors.css" rel="stylesheet">
+    <link href="assets/css/syntaxhighlighter/shCore.css" rel="stylesheet" >
+
+    <!-- RS5.0 Stylesheet -->
+    <!--<link rel="stylesheet" type="text/css" href="assets/css/settings.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/layers.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/navigation.css">-->
+
+    <link href="assets/css/style-blue.css" rel="stylesheet" title="default">
+    <link href="assets/css/width-full.css" rel="stylesheet" title="default">
+
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="assets/js/html5shiv.min.js"></script>
+        <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status">&nbsp;</div>
+</div>
+
+<body>
+
+<div class="sb-site-container">
+<div class="boxed">
+
+
+<nav class="navbar navbar-default yamm navbar-static-top" role="navigation" id="header">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="fa fa-bars"></i>
+            </button>
+            <a id="ar-brand" class="navbar-brand" href="index.html"><em>tu</em> <span>Safe</span></a>
+        </div> <!-- navbar-header -->
+
+        <!-- Collect the nav links, forms, and other content for toggling
+        <div class="pull-right">
+            <a href="javascript:void(0);" class="sb-icon-navbar sb-toggle-right"><i class="fa fa-bars"></i></a>
+        </div> -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                
+                <!-- Ocultar lista dropdawn
+                <li class="dropdown">
+                    <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Home</a>
+                     <ul class="dropdown-menu dropdown-menu-left animated-2x animated fadeIn">
+                        <li><a href="#comoLoHacemos">¿Como lo hacemos?</a></li>
+                        <li><a href="#accesos">Tus niveles de acceso</a></li>
+                        <li><a href="#sobreNosotros">Sobre nosotros</a></li>
+                    </ul> -->
+                </li>
+
+                <li>
+                    <a href="#comoLoHacemos" class="dropdown-toggle" data-hover="dropdown">¿Como lo hacemos?</a>
+                </li>
+
+                <li>
+                    <a href="#accesos" class="dropdown-toggle" data-hover="dropdown">Tus niveles de acceso</a>
+                </li>
+
+                <li>
+                    <a href="#sobreNosotros" class="dropdown-toggle" data-hover="dropdown">Sobre nosotros</a>
+                </li>
+
+                <li>
+                    <a href="#contacto" class="dropdown-toggle" data-hover="dropdown">Contacto</a>
+                </li>
+             </ul>
+        </div><!-- navbar-collapse -->
+    </div><!-- container -->
+</nav>
+
+<header id="header-full">
+    <div class="wrap-primary">
+        <div class="container text-justify">
+            <h1 class="head-title animated bounceInDown animation-delay-8">Conoce nuestro servicio</h1>
+            <img src="assets/img/logo_completo_150x171.png" alt="" class="aligncenter head-full-logo animated bounceIn animation-delay-5">
+            <h2 class="secondary-color text-center head-subtitle animated fadeInUp animation-delay-14">Existimos por quienes más quieres.</h2>
+            <div class="row header-full-icons text-center">
+                <div class="col-sm-3 animated fadeInDown animation-delay-19">
+                    <span class="icon-ar icon-ar-circle icon-ar-xl-lg icon-ar-white icon-ar-inverse"><i class="fa fa-bus"></i></span>
+                    <h3>Transporte</h3>
+                    <p class="text-center">El más alto estándar de seguridad en nuestra flota</p>
+                </div>
+                <div class="col-sm-3 animated fadeInDown animation-delay-21">
+                    <span class="icon-ar icon-ar-circle icon-ar-xl-lg icon-ar-white icon-ar-inverse"><i class="fa fa-map"></i></span>
+                    <h3>Optimización</h3>
+                    <p class="text-center">Reduce hasta en un 50% los tiempos de viaje</p>
+                </div>
+                <div class="col-sm-3 animated fadeInDown animation-delay-22">
+                    <span class="icon-ar icon-ar-circle icon-ar-xl-lg icon-ar-white icon-ar-inverse"><i class="fa fa-video-camera"></i></span>
+                    <h3>Cámara</h3>
+                    <p class="text-center">Te entregamos la seguridad de ver lo que pasa dentro del furgón</p>
+                </div>
+                <div class="col-sm-3 animated fadeInDown animation-delay-20">
+                    <span class="icon-ar icon-ar-circle icon-ar-xl-lg icon-ar-white icon-ar-inverse"><i class="fa fa-map-marker"></i></span>
+                    <h3>GPS</h3>
+                    <p class="text-center">La mejor alternativa para que te coordines, sabrás dónde está el furgón</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <section class="wrap-dark-color margin-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-xs-12 hidden-lg hidden-md">
+                    <h3 class="text-center" style="color:white"> Próximamente para nuestros clientes </h3>
+                </div>
+                <div class="col-md-7 feature-container">
+                    <a class="feature-icon">
+                        <i class="fa fa-mobile"></i>
+                        <h4>APP</h4>
+                    </a>
+                    <a class="feature-icon">
+                        <i class="fa fa-bell"></i>
+                        <h4>Notificaciones</h4>
+                    </a>
+                    <a class="feature-icon">
+                        <i class="fa fa-comments"></i>
+                        <h4>Chat</h4>
+                    </a>
+                    <a class="feature-icon">
+                        <i class="fa fa-cloud-download"></i>
+                        <h4>Reportes</h4>
+                    </a>
+                </div>
+                <div class="col-md-5 hidden-sm hidden-xs">
+                    <p class="lead text-center">Disponible próximamente para nuestros clientes una APP en plataforma android e IOS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="comoLoHacemos">
+        <div class="container">
+            <!--ES NECESARIO SEPARAR VISUALIZACIONES SEGUN TAMAÑOS DE GRILLA, YA QUE EL TEXTO NO LOGRABA CUADRAR POR SU LONGITUD -->
+
+            <!-- VISIBLE EN XS/SM-->
+            <section class="margin-bottom hidden-lg hidden-md">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="right-line">¿Cómo lo hacemos?</h2>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="text-icon wow fadeInUp">
+                            <span class="icon-ar icon-ar-lg"><i class="fa fa-video-camera"></i></span>
+                            <div class="text-icon-content">
+                                <h3 class="no-margin">Monitoreo on-line</h3>
+                                <p class="text-justify">La seguridad en la palma de tu mano, ten la confianza de poder saber lo que sucede dentro de cada furgón mientras tu hijo viaja, podrás acceder a las grabaciones del día para que no te pierdas de nada.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="text-icon wow fadeInUp">
+                            <span class="icon-ar icon-ar-lg"><i class="fa fa-map-marker"></i></span>
+                            <div class="text-icon-content">
+                                <h3 class="no-margin">Seguimiento GPS</h3>
+                                <p class="text-justify">Imagina que tu hijo aún no está listo y necesitas saber dónde viene el furgón. Pues simple, puedes saber el lugar exacto donde se encuentra el transporte. A través de tu Smartphone accede a nuestra app y tendrás ésta y otras características.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="text-icon wow fadeInUp">
+                            <span class="icon-ar icon-ar-lg"><i class="fa fa-map"></i></span>
+                            <div class="text-icon-content">
+                                <h3 class="no-margin">Optimización de ruta</h3>
+                                <p class="text-justify">Reorganizamos el actual sistema para entregar menores tiempos de viaje para tus hijos, con nuestro sistema existe un 50% de ahorro en tiempos de viaje. Por lo que podrás compartir más con quienes quieres.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="text-icon wow fadeInUp">
+                            <span class="icon-ar icon-ar-lg"><i class="fa fa-bus"></i></span>
+                            <div class="text-icon-content">
+                                <h3 class="no-margin">Mejores furgones</h3>
+                                <p class="text-justify">Podemos decir con orgullo que nuestra flota de vehículos cumplen a cabalidad con las exigencias técnicas que dicta el Ministerio de Transportes y Telecomunicaciones, y nos comprometemos a exigirlas siempre y mantener actualizados a nuestros asociados y clientes.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="text-icon wow fadeInUp">
+                            <span class="icon-ar icon-ar-lg"><i class="fa fa-graduation-cap"></i></span>
+                            <div class="text-icon-content">
+                                <h3 class="no-margin">Conductores certificados</h3>
+                                <p class="text-justify">Absolutamente todos nuestros asociados conductores deben estar autorizados para el transporte de menores por el Ministerio de Transportes y Telecomunicaciones, además de pasar un examen de entrada a nuestra flota.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="text-icon wow fadeInUp">
+                            <span class="icon-ar icon-ar-lg"><i class="fa fa-paper-plane-o"></i></span>
+                            <div class="text-icon-content">
+                                <h3 class="no-margin">Servicio al cliente</h3>
+                                <p class="text-justify">Siempre tendrás alguien para escucharte, responder tus dudas y solucionar inconvenientes, somos una empresa seria preocupada de la seguridad de los pequeños de cada hogar, por lo que siempre tendrás a alguien en quien confiar.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- row -->
+            </section>
+
+            <!-- VISIBLE EN LG/MD-->
+            <section class="margin-bottom hidden-xs hidden-sm">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="right-line">¿Cómo lo hacemos?</h2>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="text-icon wow fadeInUp">
+                            <span class="icon-ar icon-ar-lg"><i class="fa fa-video-camera"></i></span>
+                            <div class="text-icon-content">
+                                <h3 class="no-margin">Monitoreo on-line</h3>
+                                <p class="text-justify">La seguridad en la palma de tu mano, ten la confianza de poder saber lo que sucede dentro de cada furgón mientras tu hijo viaja, podrás acceder a las grabaciones del día para que no te pierdas de nada.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="text-icon wow fadeInUp">
+                            <span class="icon-ar icon-ar-lg"><i class="fa fa-map-marker"></i></span>
+                            <div class="text-icon-content">
+                                <h3 class="no-margin">Seguimiento GPS</h3>
+                                <p class="text-justify">Imagina que tu hijo aún no está listo y necesitas saber dónde viene el furgón. Pues simple, puedes saber el lugar exacto donde se encuentra el transporte. A través de tu Smartphone accede a nuestra app y tendrás ésta y otras características.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="text-icon wow fadeInUp">
+                            <span class="icon-ar icon-ar-lg"><i class="fa fa-map"></i></span>
+                            <div class="text-icon-content">
+                                <h3 class="no-margin">Optimización de ruta</h3>
+                                <p class="text-justify">Reorganizamos el actual sistema para entregar menores tiempos de viaje para tus hijos, con nuestro sistema existe un 50% de ahorro en tiempos de viaje. Por lo que podrás compartir más con quienes quieres.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- FIN ROW 1-->
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="text-icon wow fadeInUp">
+                            <span class="icon-ar icon-ar-lg"><i class="fa fa-bus"></i></span>
+                            <div class="text-icon-content">
+                                <h3 class="no-margin">Mejores furgones</h3>
+                                <p class="text-justify">Podemos decir con orgullo que nuestra flota de vehículos cumplen a cabalidad con las exigencias técnicas que dicta el Ministerio de Transportes y Telecomunicaciones, y nos comprometemos a exigirlas siempre y mantener actualizados a nuestros asociados y clientes.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="text-icon wow fadeInUp">
+                            <span class="icon-ar icon-ar-lg"><i class="fa fa-graduation-cap"></i></span>
+                            <div class="text-icon-content">
+                                <h3 class="no-margin">Conductores certificados</h3>
+                                <p class="text-justify">Absolutamente todos nuestros asociados conductores deben estar autorizados para el transporte de menores por el Ministerio de Transportes y Telecomunicaciones, además de pasar un examen de entrada a nuestra flota.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="text-icon wow fadeInUp">
+                            <span class="icon-ar icon-ar-lg"><i class="fa fa-paper-plane-o"></i></span>
+                            <div class="text-icon-content">
+                                <h3 class="no-margin">Servicio al cliente</h3>
+                                <p class="text-justify">Siempre tendrás alguien para escucharte, responder tus dudas y solucionar inconvenientes, somos una empresa seria preocupada de la seguridad de los pequeños de cada hogar, por lo que siempre tendrás a alguien en quien confiar.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- FIN ROW 2-->
+            </section>
+        </div>
+    </section>
+    <!--FIN COMO LO HACEMOS-->
+
+    <section id="accesos" class="margin-bottom">
+        <div class="container">
+            <h2 class="right-line">Entérate sobre tus prestaciones</h2>
+            <div class="row fadeInUp wow">
+                <div class="col-lg-4 margin-bottom margin-top text-center">
+                    <button class="btn btn-primary btn-lg btn-ar" data-toggle="modal" data-target="#myModalClientes">
+                        Acceso Clientes
+                    </button>
+                    <div class="modal fade" id="myModalClientes" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                    <h4 class="modal-title" id="myModalLabelClientes">Acceso Clientes</h4>
+                                </div>
+                                <div class="modal-body" style="padding=0">
+                                    <img class="img-responsive margin-bottom" src="assets/img/familia.jpg" alt="Familia de tuSafe">
+                                    <h5>Al ser cliente tendras acceso a:</h5>
+                                    <ul class="list-group-sm list-group-striped">
+                                        <li class="list-group-item text-center">Acceso con login único</li>
+                                        <li class="list-group-item text-center">Acceso a Perfil de su conductor</li>
+                                        <li class="list-group-item text-center">Recibimiento de Alerta de proximidad según GPS</li>
+                                        <li class="list-group-item text-center">Acceso a GPS y monitoreo en tiempo real del móvil</li>
+                                        <li class="list-group-item text-center">Accesos a ver la ruta</li>
+                                        <li class="list-group-item text-center">Accesos a cámaras de seguridad (frontal e interior) en tiempo real</li>
+                                        <li class="list-group-item text-center">Acceso a grabaciones hasta una semana atrás</li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    ...
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 margin-bottom margin-top text-center">
+                    <button class="btn btn-primary btn-lg btn-ar" data-toggle="modal" data-target="#myModalAsociados">
+                        Acceso Asociados
+                    </button>
+                    <div class="modal fade" id="myModalAsociados" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                    <h4 class="modal-title" id="myModalLabelAsociados">Acceso Asociados</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img class="img-responsive margin-bottom" src="assets/img/conductor.jpg" alt="Conductor de tuSafe">
+                                    <h5>Al ser Asociado tendras acceso a:</h5>
+                                    <ul class="list-group-sm list-group-striped">
+                                        <li class="list-group-item text-center">Nómina de pasajeros de sus rutas</li>
+                                        <li class="list-group-item text-center">Acceso a perfil de usuario</li>
+                                        <li class="list-group-item text-center">Rutas marcadas dentro del GPS</li>
+                                        <li class="list-group-item text-center">Alerta de estados de emergencia</li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    ...
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 margin-bottom margin-top text-center">
+                    <button class="btn btn-primary btn-lg btn-ar" data-toggle="modal" data-target="#myModalColegios">
+                        Acceso Colegios
+                    </button>
+                    <div class="modal fade" id="myModalColegios" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                    <h4 class="modal-title" id="myModalLabelColegios">Acceso Colegios</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img class="img-responsive margin-bottom" src="assets/img/profesor.jpg" alt="Profesor de tuSafe">
+                                    <h5>Los colegios tendras acceso a:</h5>
+                                    <ul class="list-group-sm list-group-striped">
+                                        <li class="list-group-item text-center">Nómina de pasajeros de cada furgón</li>
+                                        <li class="list-group-item text-center">Notificación de llegada de cada furgón</li>
+                                        <li class="list-group-item text-center">Acceso a perfil de conductor</li>
+                                        <li class="list-group-item text-center">Acceso a perfil de cliente</li>
+                                        <li class="list-group-item text-center">Acceso a GPS y monitoreo en tiempo real del móvil</li>
+                                        <li class="list-group-item text-center">Accesos a cámaras de seguridad (frontal e interior) en tiempo real</li>
+                                        <li class="list-group-item text-center">Acceso a grabaciones hasta una semana atrás</li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    ...
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FIN ACCESOS-->
+    
+    <section id="invitacion">
+        <div class="container">
+            <hr>
+            <p class="lead lead-lg text-center primary-color wow fadeInDown">Conoce más sobre <strong><em style="color:#6D6E71">tu</em><span style="text-transform:uppercase">safe</span></strong> y sorpréndete!</p>
+            <hr>
+        </div>
+    </section>
+    <!--FIN INVITACION-->
+
+    <section id="sobreNosotros" class="margin-bottom">
+        <div class="container">
+            <div class="row">
+                <!--texto sobre nosotros-->
+                <div class="col-md-6 wow fadeInRight">
+                 <h2 class="no-margin-top">Sobre nosotros</h2>
+                 <p>¿Sabías que el servicio de transporte escolar no había tenido mejoras hasta que nació tuSAFE? ¿Sabías que tuSAFE te ofrece seguridad total para el control del transporte que lleva a tus seres queridos?</p>
+                 <p>Nosotros nacimos para revolucionar el mercado del transporte escolar, contamos con un equipo multidiciplinario de técnicos y profesionales altamente calificados, los cuales podrán resolver cualquier duda y estarán para lo que necesites, buscamos cuidar a quienes más quieres.</p>
+                </div>
+                <!--fin texto sobre nosotros-->
+                <!--bloques desplegables vision mision valores-->
+                <div class="col-md-6">
+                    <div class="panel-group" id="accordion">
+                        <div class="panel panel-default wow fadeInUp">
+                            <div class="panel-heading panel-heading-link">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                    <i class="fa fa-child"></i> Misión
+                                </a>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse in">
+                                <div class="panel-body">
+                                    <p>Nuestra misión es transportar a sus niños de manera eficiente en furgones con sistemas de seguridad de última generación, cámaras y GPS integrados, permitiendo a los apoderados que monitoreen en vivo todo el servicio desde la casa al colegio y desde el colegio a la casa.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default wow fadeInUp">
+                            <div class="panel-heading panel-heading-link">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapsed">
+                                    <i class="fa fa-crosshairs"></i> Visión
+                                </a>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <p>Nuestra visión es ser líderes en la innovación del transporte escolar, buscamos ser la empresa más confiable a nivel país para el traslado de sus seres queridos hacia su establecimiento educacional.</p>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <!--fin bloques desplegables vision mision valores-->
+            </div>
+        </div>
+    </section>
+    <!--FIN SOBRE NOSOTROS-->
+
+    <section id="invitacionContacto" class="margin-bottom">
+        <div class="container">
+            <hr>
+            <p class="lead lead-lg text-center primary-color wow fadeInDown">Si estas entusiasmado o entusiasmada con <strong><em style="color:#6D6E71">tu</em><span style="text-transform:uppercase">safe</span></strong> envíanos un mensaje</p>
+        </div>
+    </section>
+    <!--FIN INVITACION CONTACTO-->
+
+    <section id="contacto" class="margin-bottom">
+        <div class="container">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs nav-tabs-ar nav-tabs-ar-white nav-justified">
+                <li class="active"><a href="#formConsulta" data-toggle="tab">Consulta</a></li>
+                <li><a href="#formCotizacion" data-toggle="tab">Cotización</a></li>
+                <li><a href="#formTrabajo" data-toggle="tab">Trabaja con nosotros</a></li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane active" id="formConsulta">
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8">
+                            <form name="contactConsulta" id="contactConsulta" action="./" >
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="inputAsunto">Asunto</label>
+                                            <input type="text" class="form-control" name="inputAsunto" id="inputAsunto" placeholder="Motivo de la consulta">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputNombre">Nombre</label>
+                                            <input type="text" class="form-control" name="inputNombre" id="inputNombre" placeholder="Nombre completo" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputComuna">Comuna</label>
+                                            <input type="text" class="form-control" name="inputComuna" id="inputComuna" placeholder="Comuna de residencia">
+                                        </div>  
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="inputTelefono">Teléfono de contacto</label>
+                                            <input type="tel" class="form-control" name="inputTelefono" id="inputTelefono" placeholder="Tu teléfono móvil o fijo" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputEmail">Dirección email</label>
+                                            <input type="email" class="form-control" name="inputEmail" id="inputEmail" placeholder="Tu email de contacto" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputEdad">Edad</label>
+                                            <input type="number" class="form-control" name="inputEdad" id="inputEdad" placeholder="Edad actual">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="inputMensaje">Mensaje</label>
+                                            <textarea class="form-control" name="inputMensaje" id="inputMensaje" rows="4" placeholder="¿En qué te podemos ayudar?" required></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <button type="submit" value="Enviar" class="btn btn-block btn-ar btn-primary">Enviar</button>
+                                    </div>
+                                    <div class="col-md-12 text-center">
+                                       <div class="margin-top" id="popupRespuesta" style="display: none"></div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                </div>
+
+                <div class="tab-pane" id="formCotizacion">
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8">
+                            <form action="./" name="contactCotizacion" id="contactCotizacion">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="inputSelectMosoTraslado">¿Modalidad de traslado?</label>
+                                            <select class="form-control" id="inputSelectModoTraslado" name="inputSelectModoTraslado">
+                                                <option>Solo ida</option>
+                                                <option>Solo retorno</option>
+                                                <option>Ida y retorno</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputDireccion">Dirección origen</label>
+                                            <input type="text" class="form-control" id="inputDireccion" name="inputDireccion" placeholder="Dónde se deben recoger o dejar los niños" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputComunaCotizacion">Comuna</label>
+                                            <input type="text" class="form-control" id="inputComunaCotizacion" name="inputComunaCotizacion" placeholder="Comuna del domicilio">
+                                        </div>  
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="inputNinos">Cantidad de niños</label>
+                                            <input type="number" class="form-control" id="inputNinos" name="inputNinos" placeholder="Más de uno solo si van al mismo colegio" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputColegio">Colegio</label>
+                                            <input type="text" class="form-control" id="inputColegio" name="inputColegio" placeholder="Dirección del colegio de destino">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputEmailCotizacion">Email contacto</label>
+                                            <input type="email" class="form-control" id="inputEmailCotizacion" name="inputEmailCotizacion" placeholder="Tu email de contacto" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="inputMensajeCotizacion">Mensaje</label>
+                                            <textarea class="form-control" id="inputMensajeCotizacion" name="inputMensajeCotizacion" rows="4" placeholder="Indícanos los detalles del transporte que deseas" required></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <button type="submit" value="Enviar" class="btn btn-block btn-ar btn-primary">Enviar</button>
+                                    </div>
+                                    <div class="col-md-12 text-center">
+                                       <div class="margin-top" id="popupRespuestaCotizacion" style="display: none"></div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                </div>
+
+                <div class="tab-pane" id="formTrabajo">
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8">
+                            <form action="./" name="contactTrabajo" id="contactTrabajo">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="inputSelectTrabajo">¿Qué trabajo buscas?</label>
+                                            <select class="form-control" id="inputSelectTrabajo" name="inputSelectTrabajo">
+                                                <option>Transportista</option>
+                                                <option>Ventas</option>
+                                                <option>Otro</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputNombreTrabajo">Nombre</label>
+                                            <input type="text" class="form-control" id="inputNombreTrabajo" name="inputNombreTrabajo" placeholder="Nombre completo" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="inputEmailTrabajo">Email contacto</label>
+                                            <input type="email" class="form-control" id="inputEmailTrabajo" name="inputEmailTrabajo" placeholder="Tu email de contacto" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputComunaTrabajo">Comuna</label>
+                                            <input type="text" class="form-control" id="inputComunaTrabajo" name="inputComunaTrabajo" placeholder="Dónde transportas niños o dónde resides">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="inputSelectConociste">¿Cómo te enteraste de tuSafe?</label>
+                                            <select class="form-control" id="inputSelectConociste" name="inputSelectConociste">
+                                                <option>Portal Web</option>
+                                                <option>Redes Sociales</option>
+                                                <option>Referido</option>
+                                                <option>Prensa (Tv-Radio-Diario)</option>
+                                            </select>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="inputMensajeTrabajo">Cuéntanos un poco sobre ti</label>
+                                            <textarea class="form-control" id="inputMensajeTrabajo" name="inputMensajeTrabajo" rows="4" placeholder="Cuéntanos que haces y por qué quieres trabajar en tuSafe" required></textarea>
+                                        </div>        
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <button type="submit" value="Enviar" class="btn btn-block btn-ar btn-primary">Enviar</button>
+                                    </div>
+                                    <div class="col-md-12 text-center">
+                                       <div class="margin-top" id="popupRespuestaTrabajo" style="display: none"></div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FIN CONTACTO-->
+
+<!--ocultar widgets footer
+<aside id="footer-widgets">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h3 class="footer-widget-title">Sitemap</h3>
+                <ul class="list-unstyled three_cols">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="portfolio_sidebar.html">Portafolio</a></li>
+                    <li><a href="portfolio_topvar.html">Works</a></li>
+                    <li><a href="page_timeline_left.html">Timeline</a></li>
+                    <li><a href="page_pricing.html">Pricing</a></li>
+                    <li><a href="page_about2.html">About Us</a></li>
+                    <li><a href="page_team.html">Our Team</a></li>
+                    <li><a href="page_services.html">Services</a></li>
+                    <li><a href="page_support.html">FAQ</a></li>
+                    <li><a href="page_login_full.html">Login</a></li>
+                    <li><a href="page_contact.html">Contact</a></li>
+                </ul>
+                <h3 class="footer-widget-title">Subscribe</h3>
+                <p>Lorem ipsum Amet fugiat elit nisi anim mollit minim labore ut esse Duis ullamco ad dolor veniam velit.</p>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Email Adress">
+                    <span class="input-group-btn">
+                        <button class="btn btn-ar btn-primary" type="button">Subscribe</button>
+                    </span>
+                </div><!-- /input-group -->
+
+        <!--ocultar widgets footer        
+            </div>
+            <div class="col-md-4">
+                <div class="footer-widget">
+                    <h3 class="footer-widget-title">Recent Post</h3>
+                    <div class="media">
+                        <a class="pull-left" href="#"><img class="media-object" src="assets/img/demo/m2.jpg" width="75" height="75" alt="image"></a>
+                        <div class="media-body">
+                            <h4 class="media-heading"><a href="#">Lorem ipsum Duis quis occaecat minim lorem ipsum tempor officia labor</a></h4>
+                            <small>August 18, 2013</small>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <a class="pull-left" href="#"><img class="media-object" src="assets/img/demo/m11.jpg" width="75" height="75" alt="image"></a>
+                        <div class="media-body">
+                            <h4 class="media-heading"><a href="#">Lorem ipsum dolor excepteur sunt in lorem ipsum cillum tempor</a></h4>
+                            <small>September 14, 2013</small>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <a class="pull-left" href="#"><img class="media-object" src="assets/img/demo/m4.jpg" width="75" height="75" alt="image"></a>
+                        <div class="media-body">
+                            <h4 class="media-heading"><a href="#">Lorem ipsum Dolor cupidatat minim adipisicing et fugiat</a></h4>
+                            <small>October 9, 2013</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="footer-widget">
+                    <h3 class="footer-widget-title">Recent Works</h3>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+                            <a href="#" class="thumbnail"><img src="assets/img/demo/wf1.jpg" class="img-responsive" alt="Image"></a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+                            <a href="#" class="thumbnail"><img src="assets/img/demo/wf2.jpg" class="img-responsive" alt="Image"></a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+                            <a href="#" class="thumbnail"><img src="assets/img/demo/wf3.jpg" class="img-responsive" alt="Image"></a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+                            <a href="#" class="thumbnail"><img src="assets/img/demo/wf4.jpg" class="img-responsive" alt="Image"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- row -->
+
+  <!--ocultar widgets footer      
+    </div> <!-- container -->
+  <!--ocultar widgets footer
+</aside> <!-- footer-widgets -->
+
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-8">
+                <a href="https://www.facebook.com/Fantusafe-1700341906950355/" target="blank" class="btn-social sm facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/fantusafe/" target="blank" class="btn-social sm instagram"><i class="fa fa-instagram"></i></a>
+                <a href="https://twitter.com/fantuSAFE" target="blank" class="btn-social sm twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/company/17882093?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A17882093%2Cidx%3A1-1-1%2CtarId%3A1479329071282%2Ctas%3Atusafe" target="blank" class="btn-social sm linkedin"><i class="fa fa-linkedin"></i></a>
+                <!--<a href="#" class="btn-social sm youtube"><i class="fa fa-youtube"></i></a>-->
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-8">
+                <p class="text-center">&copy; 2016 <a href="#"></a>, Todos los derechos reservados para tuSafe</p>
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+    </div>
+</footer>
+
+</div> <!-- boxed -->
+</div> <!-- sb-site -->
+
+<div class="sb-slidebar sb-right sb-style-overlay">
+    <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search...">
+        <span class="input-group-btn">
+            <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+        </span>
+    </div><!-- /input-group -->
+
+    <h2 class="slidebar-header no-margin-bottom">Navigation</h2>
+    <ul class="slidebar-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio_topbar.html">Portfolio</a></li>
+        <li><a href="page_about3.html">About us</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="page_contact.html">Contact</a></li>
+    </ul>
+
+    <h2 class="slidebar-header">Social Media</h2>
+    <div class="slidebar-social-icons">
+        <a href="#" class="social-icon-ar rss"><i class="fa fa-rss"></i></a>
+        <a href="#" class="social-icon-ar facebook"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="social-icon-ar twitter"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="social-icon-ar pinterest"><i class="fa fa-pinterest"></i></a>
+        <a href="#" class="social-icon-ar instagram"><i class="fa fa-instagram"></i></a>
+        <a href="#" class="social-icon-ar wordpress"><i class="fa fa-wordpress"></i></a>
+        <a href="#" class="social-icon-ar linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="#" class="social-icon-ar flickr"><i class="fa fa-flickr"></i></a>
+        <a href="#" class="social-icon-ar vine"><i class="fa fa-vine"></i></a>
+        <a href="#" class="social-icon-ar dribbble"><i class="fa fa-dribbble"></i></a>
+    </div>
+</div> <!-- sb-slidebar sb-right -->
+
+<div id="back-top">
+    <a href="#header"><i class="fa fa-chevron-up"></i></a>
+</div>
+
+<!--
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<!-- Scripts -->
+<!-- Compiled in vendors.js -->
+<!--
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.cookie.js"></script>
+<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/bootstrap-switch.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/slidebars.min.js"></script>
+<script src="assets/js/jquery.bxslider.min.js"></script>
+<script src="assets/js/holder.js"></script>
+<script src="assets/js/buttons.js"></script>
+<script src="assets/js/jquery.mixitup.min.js"></script>
+<script src="assets/js/circles.min.js"></script>
+<script src="assets/js/masonry.pkgd.min.js"></script>
+<script src="assets/js/jquery.matchHeight-min.js"></script>
+-->
+
+<script src="assets/js/vendors.js"></script>
+
+<!--<script type="text/javascript" src="assets/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
+<script type="text/javascript" src="assets/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>-->
+
+
+<script src="assets/js/styleswitcher.js"></script>
+
+<!-- Syntaxhighlighter -->
+<script src="assets/js/syntaxhighlighter/shCore.js"></script>
+<script src="assets/js/syntaxhighlighter/shBrushXml.js"></script>
+<script src="assets/js/syntaxhighlighter/shBrushJScript.js"></script>
+
+<script src="assets/js/DropdownHover.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/holder.js"></script>
+<script src="assets/js/home_full.js"></script>
+
+<!-- Contact Forms NoReload Page **Conexx AJAX with PHP** -->
+
+<script src="assets/js/noReloadForm.js"></script>
+<script src="assets/js/noReloadFormCotizacion.js"></script>
+<script src="assets/js/noReloadFormTrabajo.js"></script>
+
+</body>
+
+</html>

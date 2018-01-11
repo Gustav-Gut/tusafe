@@ -1,0 +1,322 @@
+/* ---------------------------------------------------- */
+/* Header Shop */
+/* ---------------------------------------------------- */
+
+.sh-header-full-title {
+    background-image: none;
+
+    padding-left: 0;
+    .sh-logo {
+        display: inline-block;
+        left: 0;
+        border: solid 2px #444;
+        border-radius: 5px;
+        padding: 10px;
+        color: @primary-color;
+        margin: 17px 10px 0 10px;
+        height: 65px;
+        width: 65px;
+        text-align: center;
+        vertical-align: top;
+
+    }
+
+    .sh-header-title {
+        display: inline-block;
+
+        h1 {
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+
+        p {
+            margin-bottom: 18px;
+            margin-top: 0;
+            color: #999;
+            font-size: 14px;
+            position: relative;
+            z-index: 1;
+            text-transform: uppercase;
+
+            &:after {
+                content: "";
+                width: 100%;
+                border-bottom: solid 1px #999;
+                position: absolute;
+                left: 0;
+                top: 10px;
+                z-index: 1;
+            }
+
+            &:before {
+                content: "";
+                width: 100%;
+                border-bottom: solid 1px #999;
+                position: absolute;
+                left: 0;
+                top: 14px;
+                z-index: 1;
+            }
+
+
+            span {
+                background-color: #f1f1f1;
+                padding: 0 5px;
+                position: relative;
+                z-index: 2;
+            }
+        }
+    }   
+}
+
+.dropdown-menu-lang {
+    width: auto;
+    box-shadow: none;
+
+    li {
+
+        &.active {
+            a{
+                color: #fff;
+            }
+        }
+
+        a {
+            display: block !important;
+
+            &:hover,
+            &:focus {
+                color: #fff;
+            }
+        }
+    }
+}
+
+.header-full-dark {
+    .sh-header-title p span {
+        background-color: #444;
+    }
+
+    .sh-logo {
+        border-color: #bbb;
+    }
+
+    .dropdown-menu-lang {
+        li {
+            a {
+                color: #fff !important;
+                background-image: none;
+
+                &:hover,
+                &:focus {
+                    background-color: @primary-color !important;
+                }
+            }
+
+            
+        }
+    }
+}
+
+
+/* ---------------------------------------------------- */
+/* Home Shop */
+/* ---------------------------------------------------- */
+
+.sh-wrap-commerce {
+    background-image: url("@{img-path}/back_wrap_commerce.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    padding: 30px 0;
+
+    min-height: 500px;
+}
+
+#sh-home-intro {
+    .title {
+        text-transform: uppercase;
+
+        h1, h2 {
+            font-family: 'Oswald', sans-serif;
+            color: #fff;
+
+            span {
+                color: @primary-color;
+            }
+        }
+
+        h1 {
+            font-size: 4.8em;
+            font-weight: 600;
+            word-spacing: -10px;
+            border-bottom: solid 1px #fff;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+            line-height: 1;
+            display: inline-block;
+        }
+
+        h2 {
+            font-size: 1.4em;
+            margin-top: 0;
+            letter-spacing: 1px;
+        }
+
+        .btn-intro-shop {
+            background-image: none !important;
+            border: solid 1px #f1f1f1;
+            border-radius: 0;
+            font-family: 'Oswald', sans-serif;
+            padding: 15px 25px;
+            font-size: 1.2em;
+            font-weight: 300;
+        }
+
+        .btn-primary.btn-intro-shop {
+            background-color: fadeout(@primary-color, 60%);
+
+            &:hover {
+                background-color: @primary-color;
+            }
+        }
+
+        .btn-success.btn-intro-shop {
+            background-color: fadeout(@success-color, 60%);
+            
+
+            &:hover {
+                background-color: @success-color;
+            }
+        }
+
+        .btn-info.btn-intro-shop {
+            background-color: fadeout(@info-color, 60%);
+            
+
+            &:hover {
+                background-color: @info-color;
+            }
+        }
+
+        .btn-warning.btn-intro-shop {
+            background-color: fadeout(@warning-color, 60%);
+            
+
+            &:hover {
+                background-color: @warning-color;
+            }
+        }
+
+        .btn-danger.btn-intro-shop {
+            background-color: fadeout(@danger-color, 60%);
+            
+
+            &:hover {
+                background-color: @danger-color;
+            }
+        }
+
+        .btn-royal.btn-intro-shop {
+            background-color: fadeout(@royal-color, 60%);
+            
+
+            &:hover {
+                background-color: @royal-color;
+            }
+        }
+
+        .sh-home-intro-btn {
+            margin: 40px 0px;
+
+            .btn {
+                margin: 0 5px 5px 0;
+            }
+        }
+
+        .sh-home-intro-social {
+            a:link {
+                color: #fff !important;
+            }
+        }
+    }
+}
+
+/* ---------------------------------------------------- */
+/* Page Filters */
+/* ---------------------------------------------------- */
+
+.sh-product {
+
+}
+
+.sh-price {
+
+}
+
+.sh-product-body {
+    padding: 0px;
+    position: relative;
+    z-index: 1;
+
+    .sh-product-caption {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+        opacity: 0;
+        transition: all .25s ease;
+        color: #fff;
+        padding: 20px;
+
+        hr {
+            width: 80%;
+            text-align: center;
+            margin: 0 auto;
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .sh-product-caption-title {
+            color: #fff;
+            display: block;
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            font-family: 'Muli';
+        }
+
+        .sh-product-caption-des {
+            text-align: center;
+            font-size: .9em;
+        }
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    .sh-price {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        z-index: 10;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: #fff;
+        padding: 10px 15px;
+        border-radius: 2px;
+        font-family: 'Muli', 'Open Sans';
+    }
+}
+
+
+
+.row-grid {
+
+
+    [class^="col-"] {
+        margin-bottom: 20px;
+    }
+}

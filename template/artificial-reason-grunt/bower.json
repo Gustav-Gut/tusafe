@@ -1,0 +1,56 @@
+{
+    "name": "artificial-reason",
+    "version": "1.4.10",
+    "authors": [
+        "adrigm <adrigm.admin@gmail.com>"
+    ],
+
+    "description": "",
+    "main": "index.html",
+    "moduleType": [
+        "node"
+    ],
+
+    "keywords": [
+        "Template",
+        "FrontEnd",
+        "Grunt",
+        "Modular"
+    ],
+
+    "license": "Copyright 2015",
+
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+
+    "dependencies": {
+        "animate-css": "3.5.2",
+        "bootstrap": "3.3.6",
+        "bootstrap-switch": "3.3.2",
+        "Buttons": "2.0.0",
+        "bxslider-4": "4.2.5",
+        "circles": "https://github.com/lugolabs/circles/archive/master.zip",
+        "font-awesome": "4.6.3",
+        "holderjs": "2.9.3",
+        "html5shiv": "3.7.3",
+        "jquery": "2.2.4",
+        "jquery-cookie": "1.4.1",
+        "jquery.countdown": "2.1.0",
+        "lightbox": "2.8.2",
+        "mixitup": "2.1.11",
+        "respond": "1.4.2",
+        "slidebars": "0.10.3",
+        "syntaxhighlighter": "http://alexgorbatchev.com/SyntaxHighlighter/download/download.php?sh_current",
+        "wowjs": "1.1.2",
+        "imagesloaded": "4.1.0",
+        "masonry": "4.1.0",
+        "matchHeight": "0.7.0",
+        "owl-carousel2": "*",
+        "jquery-mousewheel": "3.1.13"
+    }
+}

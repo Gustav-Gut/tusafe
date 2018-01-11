@@ -1,0 +1,41 @@
+/*!
+ *  Font Awesome 4.5.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face{
+	  font-family: 'FontAwesome-ifs';
+	  src: url('fonts/fontawesome-webfont.eot?v=4.5.0');
+	  src: url('fonts/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'), url('fonts/fontawesome-webfont.woff2?v=4.5.0') format('woff2'), url('fonts/fontawesome-webfont.woff?v=4.5.0') format('woff'), url('fonts/fontawesome-webfont.ttf?v=4.5.0') format('truetype'), url('fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
+	  font-weight: normal;
+	  font-style: normal;
+}
+.fa-ifs{
+	  display: inline-block;
+	  font: normal normal normal 14px/1 FontAwesome-ifs;
+	  font-size: inherit;
+	  text-rendering: auto;
+	  -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
+	  transform: translate(0, 0);
+}
+.ifs-refresh:before{
+	content: "\f021";
+}
+.ifs-busket:before {
+    content: "\f217";
+}
+.ifs-busket-small:before {
+    content: "\f217";
+	font-size: 16px;
+    padding-right: 5px;
+}
+.ifs-frw:before { 
+    content: "\f0a1";
+}
+.ifs-close:before{
+	content: "\f00d";
+	font-size: 16px;
+    padding-right: 2px;
+}

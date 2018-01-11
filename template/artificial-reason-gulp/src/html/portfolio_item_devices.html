@@ -1,0 +1,85 @@
+<!-- build:include layout/header.html --><!-- /build -->
+
+<header class="main-header">
+    <div class="container">
+        <h1 class="page-title">Portfolio item device</h1>
+
+        <ol class="breadcrumb pull-right">
+            <li><a href="#">Portfolio</a></li>
+            <li class="active">Portfolio item device</li>
+        </ol>
+    </div>
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="icon-devices  no-margin-bottom">
+                        <li class="active"><a href="#desktop" data-toggle="tab"><i class="fa fa-desktop"></i></a></li>
+                        <li><a href="#laptop" data-toggle="tab"><i class="fa fa-laptop"></i></a></li>
+                        <li><a href="#tablet" data-toggle="tab"><i class="fa fa-tablet"></i></a></li>
+                        <li><a href="#mobile" data-toggle="tab"><i class="fa fa-mobile"></i></a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="desktop">
+                            <img src="<%= assets %>img/demo/mac.png" alt="" class="img-responsive">
+                        </div>
+                        <div class="tab-pane" id="laptop">
+                            <img src="<%= assets %>img/demo/macpro.png" alt="" class="img-responsive">
+                        </div>
+                        <div class="tab-pane" id="tablet">
+                            <img src="<%= assets %>img/demo/ipad.png" alt="" class="img-responsive">
+                        </div>
+                        <div class="tab-pane" id="mobile">
+                            <img src="<%= assets %>img/demo/iphone.png" alt="" class="img-responsive">
+                        </div>
+                    </div>
+                    <hr class="no-margin-top">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="panel panel-default portfolio-item-panel">
+                <div class="panel-heading">Item Details</div>
+                <div class="panel-body">
+                    <h4 class="no-margin-bottom">Data</h4>
+                    <ul class="list-unstyled">
+                        <li><strong>Title:</strong> the title item</li>
+                        <li><strong>Categories:</strong> Nature, Landscape, animals.</li>
+                        <li><strong>Author:</strong> Andrew Ryan</li>
+                        <li><strong>Year:</strong> 2014</li>
+                    </ul>
+                    <h4 class="no-margin-bottom">Description</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur quas adipisicing elit. Voluptatem vitae similique illum quia ipsa a temporibus ratione libero aliquam debitis temporibus.</p>
+                    <p>Lorem ipsum similique illum quia ipsa elit consectetur adipisicing elit libero amet ut tempore vero deserunt non.</p>
+                    <p>Necessitatibus voluptatem distinctio tenetur doloremque natus veniam consectetur dignissimos deleniti.</p>
+                    <p class="text-center"><a href="#" class="btn btn-ar btn-primary"><i class="fa fa-desktop"></i> Live Preview</a> <a href="#" class="btn btn-ar btn-success"><i class="fa fa-usd"></i> Purchase</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="right-line">Related Works</h2>
+        </div>
+        <div class="col-md-4">
+            <a href="#" class="thumbnail">
+                <img src="<%= assets %>img/demo/img20.jpg" alt="" class="img-responsive">
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="#" class="thumbnail">
+                <img src="<%= assets %>img/demo/img24.jpg" alt="" class="img-responsive">
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="#" class="thumbnail">
+                <img src="<%= assets %>img/demo/img10.jpg" alt="" class="img-responsive">
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- build:include layout/footer.html --><!-- /build -->
